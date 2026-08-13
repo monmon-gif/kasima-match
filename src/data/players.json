@@ -1,0 +1,34 @@
+[
+  {"playerId":"player-001","name":"早川 友基","nameEn":"Tomoki Hayakawa","number":1,"position":"GK","dateOfBirth":"1999-03-03","height":187,"weight":81,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-021","name":"山田 大樹","nameEn":"Taiki Yamada","number":21,"position":"GK","dateOfBirth":"2002-01-08","height":192,"weight":90,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-029","name":"梶川 裕嗣","nameEn":"Yuji Kajikawa","number":29,"position":"GK","dateOfBirth":"1991-07-26","height":185,"weight":78,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-031","name":"藤井 陽登","nameEn":"Haruto Fujii","number":31,"position":"GK","dateOfBirth":"2003-06-05","height":183,"weight":79,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+
+  {"playerId":"player-002","name":"安西 幸輝","nameEn":"Koki Anzai","number":2,"position":"DF","dateOfBirth":"1995-05-31","height":172,"weight":64,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-003","name":"キム テヒョン","nameEn":"Kim Tae Hyeon","number":3,"position":"DF","dateOfBirth":"2000-09-17","height":187,"weight":82,"preferredFoot":"LEFT","nationality":"大韓民国","imagePath":"","active":true},
+  {"playerId":"player-004","name":"千田 海人","nameEn":"Kaito Chida","number":4,"position":"DF","dateOfBirth":"1994-10-17","height":186,"weight":82,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-005","name":"関川 郁万","nameEn":"Ikuma Sekigawa","number":5,"position":"DF","dateOfBirth":"2000-09-13","height":182,"weight":72,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-007","name":"小川 諒也","nameEn":"Ryoya Ogawa","number":7,"position":"DF","dateOfBirth":"1996-11-24","height":183,"weight":78,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-023","name":"津久井 佳祐","nameEn":"Keisuke Tsukui","number":23,"position":"DF","dateOfBirth":"2004-05-21","height":180,"weight":70,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-025","name":"小池 龍太","nameEn":"Ryuta Koike","number":25,"position":"DF","dateOfBirth":"1995-08-29","height":170,"weight":65,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-028","name":"大川 佑梧","nameEn":"Yugo Okawa","number":28,"position":"DF","dateOfBirth":"2007-07-14","height":185,"weight":73,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-035","name":"元砂 晏翔仁 ウデンバ","nameEn":"Anthony Udemba Motosuna","number":35,"position":"DF","dateOfBirth":"2009-03-10","height":192,"weight":82,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-037","name":"広瀬 陸斗","nameEn":"Rikuto Hirose","number":37,"position":"DF","dateOfBirth":"1995-09-23","height":176,"weight":68,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-055","name":"植田 直通","nameEn":"Naomichi Ueda","number":55,"position":"DF","dateOfBirth":"1994-10-24","height":186,"weight":79,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+
+  {"playerId":"player-006","name":"三竿 健斗","nameEn":"Kento Misao","number":6,"position":"MF","dateOfBirth":"1996-04-16","height":181,"weight":73,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-008","name":"マテウス ブエノ","nameEn":"Matheus Bueno","number":8,"position":"MF","dateOfBirth":"1998-07-30","height":178,"weight":79,"preferredFoot":"RIGHT","nationality":"ブラジル","imagePath":"","active":true},
+  {"playerId":"player-010","name":"柴崎 岳","nameEn":"Gaku Shibasaki","number":10,"position":"MF","dateOfBirth":"1992-05-28","height":175,"weight":64,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-014","name":"樋口 雄太","nameEn":"Yuta Higuchi","number":14,"position":"MF","dateOfBirth":"1996-10-30","height":168,"weight":66,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-024","name":"林 晴己","nameEn":"Haruki Hayashi","number":24,"position":"MF","dateOfBirth":"2003-12-05","height":177,"weight":73,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-027","name":"松村 優太","nameEn":"Yuta Matsumura","number":27,"position":"MF","dateOfBirth":"2001-04-13","height":173,"weight":63,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+
+  {"playerId":"player-009","name":"レオ セアラ","nameEn":"Leo Ceara","number":9,"position":"FW","dateOfBirth":"1995-02-03","height":178,"weight":78,"preferredFoot":"RIGHT","nationality":"ブラジル","imagePath":"","active":true},
+  {"playerId":"player-011","name":"田川 亨介","nameEn":"Kyosuke Tagawa","number":11,"position":"FW","dateOfBirth":"1999-02-11","height":181,"weight":70,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-017","name":"エウベル","nameEn":"Elber","number":17,"position":"FW","dateOfBirth":"1992-05-27","height":170,"weight":70,"preferredFoot":"RIGHT","nationality":"ブラジル","imagePath":"","active":true},
+  {"playerId":"player-018","name":"ヤン マテウス","nameEn":"Yan Matheus","number":18,"position":"FW","dateOfBirth":"1998-09-04","height":170,"weight":71,"preferredFoot":"LEFT","nationality":"ブラジル","imagePath":"","active":true},
+  {"playerId":"player-030","name":"吉田 湊海","nameEn":"Minato Yoshida","number":30,"position":"FW","dateOfBirth":"2008-07-15","height":172,"weight":72,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-034","name":"徳田 誉","nameEn":"Homare Tokuda","number":34,"position":"FW","dateOfBirth":"2007-02-18","height":186,"weight":83,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-040","name":"鈴木 優磨","nameEn":"Yuma Suzuki","number":40,"position":"FW","dateOfBirth":"1996-04-26","height":182,"weight":75,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-077","name":"チャヴリッチ","nameEn":"Aleksandar Cavric","number":77,"position":"FW","dateOfBirth":"1994-05-18","height":186,"weight":82,"preferredFoot":"RIGHT","nationality":"セルビア/クロアチア","imagePath":"","active":true}
+]

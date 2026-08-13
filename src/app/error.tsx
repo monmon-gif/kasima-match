@@ -1,0 +1,1 @@
+'use client'; export default function ErrorPage({unstable_retry}:{error:Error;unstable_retry:()=>void}){return <div className="empty page-head"><h1>データの取得に失敗しました。</h1><p>時間をおいて再度お試しください。</p><button className="button" onClick={()=>unstable_retry()}>もう一度試す</button></div>}

@@ -1,0 +1,3 @@
+module.exports=[3363,a=>{"use strict";var b=a.i(7997),c=a.i(95936);a.s(["default",0,function(){return(0,b.jsxs)("div",{className:"empty page-head",children:[(0,b.jsx)("p",{className:"eyebrow",children:"404 NOT FOUND"}),(0,b.jsx)("h1",{children:"ページが見つかりません"}),(0,b.jsx)("p",{children:"指定された情報は存在しないか、移動した可能性があります。"}),(0,b.jsx)(c.default,{className:"button",href:"/",children:"トップへ戻る"})]})}])},17537,a=>{a.n(a.i(3363))}];
+
+//# sourceMappingURL=src_app_not-found_tsx_1863-sq._.js.map

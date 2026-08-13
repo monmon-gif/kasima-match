@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Antlers Match Hub
 
-## Getting Started
+鹿島アントラーズの試合、シーズン成績、選手情報を表示する学習用の非公式サイトです。
 
-First, run the development server:
+## 起動方法
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで `http://localhost:3000` を開きます。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## データの編集
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+試合や選手の情報は、`src/data`内のJSONで管理しています。
 
-## Learn More
+- 選手情報: `src/data/players.json`
+- 試合情報: `src/data/matches.json`
+- 詳しい記入方法: [`src/data/README.md`](src/data/README.md)
 
-To learn more about Next.js, take a look at the following resources:
+シーズン成績、選手成績、ランキングはJSONの内容から自動計算されます。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 動作確認
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run lint
+npm run build
+```
 
-## Deploy on Vercel
+## 注意事項
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+このサイトは学習用途の非公式サイトです。現在登録されている情報には画面確認用のデモデータが含まれます。

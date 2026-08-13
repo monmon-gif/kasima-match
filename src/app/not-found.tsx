@@ -1,0 +1,1 @@
+import Link from 'next/link'; export default function NotFound(){return <div className="empty page-head"><p className="eyebrow">404 NOT FOUND</p><h1>ページが見つかりません</h1><p>指定された情報は存在しないか、移動した可能性があります。</p><Link className="button" href="/">トップへ戻る</Link></div>}

@@ -1,0 +1,2 @@
+import {MatchCard} from '@/components/MatchCard'; import {getMatches} from '@/services/matchService';
+export const metadata={title:'試合日程・結果'}; export default function MatchesPage(){const matches=getMatches();return <><div className="page-head"><p className="eyebrow">MATCHES</p><h1>試合日程・結果</h1><p>2026シーズンの公式戦スケジュール</p></div><div className="list">{matches.map(m=><MatchCard key={m.matchId} match={m}/>)}</div></>}

@@ -1,0 +1,1 @@
+export type PlayerStats = { playerId: string; appearances: number; starts: number; substituteAppearances: number; minutes: number; goals: number; assists: number; yellowCards: number; redCards: number };

@@ -1,0 +1,207 @@
+[
+  {
+    "matchId": "match-2026-001",
+    "season": 2026,
+    "competition": "明治安田J1リーグ",
+    "round": "第1節",
+    "date": "2026-08-07",
+    "kickoffTime": "19:25",
+    "venue": "MUFGスタジアム",
+    "homeAway": "AWAY",
+    "opponent": {
+      "opponentId": "yokohama-f-marinosu",
+      "name": "横浜F・マリノス"
+    },
+    "status": "FINISHED",
+    "matchDuration": 90,
+    "score": {
+      "kashima": 4,
+      "opponent": 3
+    },
+    "result": "WIN",
+    "attendance": 63960,
+    "goals": [
+      {
+        "minute": 7,
+        "additionalTime": null,
+        "team": "OPPONENT",
+        "scorerPlayerId": null,
+        "assistPlayerId": null,
+        "goalType": "NORMAL"
+      },
+      {
+        "minute": 11,
+        "additionalTime": null,
+        "team": "KASHIMA",
+        "scorerPlayerId": "player-009",
+        "assistPlayerId": "player-007",
+        "goalType": "NORMAL"
+      },
+      {
+        "minute": 18,
+        "additionalTime": null,
+        "team": "OPPONENT",
+        "scorerPlayerId": null,
+        "assistPlayerId": null,
+        "goalType": "NORMAL"
+      },
+      {
+        "minute": 58,
+        "additionalTime": null,
+        "team": "OPPONENT",
+        "scorerPlayerId": null,
+        "assistPlayerId": null,
+        "goalType": "NORMAL"
+      },
+      {
+        "minute": 81,
+        "additionalTime": null,
+        "team": "KASHIMA",
+        "scorerPlayerId": "player-009",
+        "assistPlayerId": null,
+        "goalType": "NORMAL"
+      },
+      {
+        "minute": 90,
+        "additionalTime": 9,
+        "team": "KASHIMA",
+        "scorerPlayerId": "player-077",
+        "assistPlayerId": null,
+        "goalType": "NORMAL"
+      },
+      {
+        "minute": 90,
+        "additionalTime": 12,
+        "team": "KASHIMA",
+        "scorerPlayerId": "player-077",
+        "assistPlayerId": "player-010",
+        "goalType": "NORMAL"
+      }
+    ],
+    "startingPlayers": [
+      {
+        "playerId": "player-001",
+        "position": "GK"
+      },
+      {
+        "playerId": "player-037",
+        "position": "DF"
+      },
+      {
+        "playerId": "player-005",
+        "position": "DF"
+      },
+      {
+        "playerId": "player-055",
+        "position": "DF"
+      },
+      {
+        "playerId": "player-007",
+        "position": "MF"
+      },
+      {
+        "playerId": "player-006",
+        "position": "MF"
+      },
+      {
+        "playerId": "player-008",
+        "position": "MF"
+      },
+      {
+        "playerId": "player-018",
+        "position": "MF"
+      },
+      {
+        "playerId": "player-030",
+        "position": "MF"
+      },
+      {
+        "playerId": "player-040",
+        "position": "FW"
+      },
+      {
+        "playerId": "player-009",
+        "position": "FW"
+      }
+    ],
+    "substitutePlayers": [
+      {
+        "playerId": "player-003",
+        "entered": true
+      },
+      {
+        "playerId": "player-021",
+        "entered": true
+      },
+      {
+        "playerId": "player-023",
+        "entered": true
+      },
+      {
+        "playerId": "player-035",
+        "entered": true
+      },
+      {
+        "playerId": "player-010",
+        "entered": true
+      },
+      {
+        "playerId": "player-024",
+        "entered": true
+      },
+      {
+        "playerId": "player-027",
+        "entered": true
+      },
+      {
+        "playerId": "player-034",
+        "entered": true
+      },
+      {
+        "playerId": "player-077",
+        "entered": true
+      }
+    ],
+    "substitutions": [
+      {
+        "minute": 45,
+        "additionalTime": null,
+        "playerOutId": "player-030",
+        "playerInId": "player-027"
+      },
+      {
+        "minute": 66,
+        "additionalTime": null,
+        "playerOutId": "player-008",
+        "playerInId": "player-010"
+      },
+      {
+        "minute": 66,
+        "additionalTime": null,
+        "playerOutId": "player-018",
+        "playerInId": "player-024"
+      },
+      {
+        "minute": 84,
+        "additionalTime": null,
+        "playerOutId": "player-037",
+        "playerInId": "player-034"
+      },
+      {
+        "minute": 84,
+        "additionalTime": null,
+        "playerOutId": "player-007",
+        "playerInId": "player-077"
+      }
+    ],
+    "cards": [
+      {
+        "minute": 24,
+        "additionalTime": null,
+        "team": "KASHIMA",
+        "playerId": "player-040",
+        "type": "YELLOW"
+      }
+    ]
+  }
+]
