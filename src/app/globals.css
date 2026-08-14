@@ -58,3 +58,44 @@
   .rank-row em{font-size:28px}
   .tabs button{flex:1;padding:12px 16px}
 }
+
+/* 赤を主役にしたトップヒーローと鹿のキービジュアル */
+.hero{
+  background:linear-gradient(118deg,#d51435 0%,#b5122b 62%,#8b0b20 100%);
+  isolation:isolate;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:linear-gradient(90deg,#7c0719cc 0%,#8d081c38 52%,transparent 76%);
+}
+.hero h1 em{color:#fff}
+.hero .eyebrow{color:#fff}
+.hero .button{background:var(--deep)}
+.hero-stag{
+  position:absolute;
+  right:-5%;
+  bottom:-14%;
+  z-index:-2;
+  width:min(66%,760px);
+  opacity:.82;
+  mix-blend-mode:screen;
+  pointer-events:none;
+}
+.hero-stag img{
+  display:block;
+  width:100%;
+  height:auto;
+  filter:contrast(1.18);
+}
+
+@media(max-width:760px){
+  .hero-stag{right:-27%;bottom:-4%;width:105%;opacity:.38}
+  .hero::after{background:linear-gradient(90deg,#7c0719e8 0%,#8d081c80 62%,transparent)}
+}
+
+@media(max-width:480px){
+  .hero-stag{right:-48%;bottom:2%;width:142%;opacity:.3}
+}

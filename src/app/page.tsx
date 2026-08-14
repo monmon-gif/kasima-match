@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { MatchCard } from '@/components/MatchCard';
@@ -48,7 +49,15 @@ export default function Home() {
             試合日程を見る →
           </Link>
         </div>
-        <div className="hero-mark">12</div>
+        <div className="hero-stag" aria-hidden="true">
+          <Image
+            src="/images/hero-stag.png"
+            alt=""
+            width={1536}
+            height={1024}
+            priority
+          />
+        </div>
       </section>
 
       <section>
