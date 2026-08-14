@@ -38,11 +38,11 @@ export default function Home() {
       {/* サイトの主題と主要導線 */}
       <section className="hero">
         <div>
-          <p className="eyebrow">2026 SEASON</p>
+          <p className="eyebrow">26/27 SEASON</p>
           <h1>
-            FOOTBALL IS
+            共闘
             <br />
-            <em>OUR HEART.</em>
+            <em>Fight together</em>
           </h1>
           <p>試合の熱を、数字と記録で振り返る。</p>
           <Link className="button" href="/matches">
