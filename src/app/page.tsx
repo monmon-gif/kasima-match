@@ -95,7 +95,7 @@ export default function Home() {
         <div className="section-head">
           <div>
             <p className="eyebrow">PLAYER LEADERS</p>
-            <h2>チームリーダー</h2>
+            <h2>チーム内ランキング</h2>
           </div>
           <Link href="/rankings">ランキング →</Link>
         </div>

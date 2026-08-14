@@ -46,7 +46,7 @@ export default function RootLayout({
             <b>ANTLERS MATCH HUB</b>
             <p>鹿島アントラーズを応援する学習用の非公式サイトです。</p>
             <small>
-              掲載データはデモデータです。公式情報をご確認ください。
+              結果の間違えや反映が遅くなります。公式情報をご確認ください。
             </small>
           </div>
         </footer>
