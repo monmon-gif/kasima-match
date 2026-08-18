@@ -1,0 +1,24 @@
+{
+  "matchId": "match-2026-007",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第6節",
+  "date": "2026-09-06",
+  "kickoffTime": "18:00",
+  "venue": "メルカリスタジアム",
+  "homeAway": "HOME",
+  "opponent": {
+    "opponentId": "urawa-red-diamonds",
+    "name": "浦和レッズ"
+  },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}

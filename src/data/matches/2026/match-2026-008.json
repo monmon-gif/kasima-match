@@ -1,0 +1,24 @@
+{
+  "matchId": "match-2026-008",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第11節",
+  "date": "2026-10-21",
+  "kickoffTime": "19:00",
+  "venue": "サンガスタジアム by KYOCERA",
+  "homeAway": "AWAY",
+  "opponent": {
+    "opponentId": "kyoto-sanga",
+    "name": "京都サンガF.C."
+  },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}

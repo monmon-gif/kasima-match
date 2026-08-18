@@ -62,7 +62,10 @@
 "imagePath": "/images/players/player-012.jpg"
 ```
 
-## matches.json
+## matches/
+
+試合データは、`matches/<season>/<matchId>.json` に1試合ずつ保存します。
+ファイルを追加したら、`matches/index.ts` にimportと配列要素を追加してください。
 
 ### 開催予定試合の記入例
 
@@ -213,7 +216,7 @@
 
 1. 新しい選手の場合は、先に `players.json`へ追加します。
 2. 選手の `playerId`が既存データと重複していないか確認します。
-3. `matches.json`へ試合を追加します。
+3. `matches/<season>/<matchId>.json`へ試合を追加し、`matches/index.ts`へ登録します。
 4. 試合内の選手IDが `players.json`のIDと一致しているか確認します。
 5. `npm run lint` と `npm run build` を実行します。
 

@@ -1,0 +1,24 @@
+{
+  "matchId": "match-2026-012",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第16節",
+  "date": "2026-12-16",
+  "kickoffTime": "19:00",
+  "venue": "メルカリスタジアム",
+  "homeAway": "HOME",
+  "opponent": {
+    "opponentId": "fc-machida-zelvia",
+    "name": "FC町田ゼルビア"
+  },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}

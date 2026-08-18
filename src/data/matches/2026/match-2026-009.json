@@ -1,0 +1,24 @@
+{
+  "matchId": "match-2026-009",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第14節",
+  "date": "2026-11-07",
+  "kickoffTime": "15:00",
+  "venue": "味の素スタジアム",
+  "homeAway": "AWAY",
+  "opponent": {
+    "opponentId": "fc-tokyo",
+    "name": "FC東京"
+  },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}

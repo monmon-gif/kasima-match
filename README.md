@@ -16,7 +16,7 @@ npm run dev
 試合や選手の情報は、`src/data`内のJSONで管理しています。
 
 - 選手情報: `src/data/players.json`
-- 試合情報: `src/data/matches.json`
+- 試合情報: `src/data/matches/<season>/<matchId>.json`
 - 詳しい記入方法: [`src/data/README.md`](src/data/README.md)
 
 シーズン成績、選手成績、ランキングはJSONの内容から自動計算されます。

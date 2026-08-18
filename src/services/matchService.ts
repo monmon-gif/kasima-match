@@ -1,7 +1,4 @@
-import matchesData from '@/data/matches.json';
-import type { Match } from '@/types/match';
-
-const matches = matchesData as Match[];
+import { matches } from '@/data/matches';
 
 /** 全試合を開催日の古い順で返す。 */
 export const getMatches = () =>

@@ -1,0 +1,24 @@
+{
+  "matchId": "match-2026-013",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第20節",
+  "date": "2026-12-19",
+  "kickoffTime": "15:00",
+  "venue": "MUFGスタジアム",
+  "homeAway": "HOME",
+  "opponent": {
+    "opponentId": "tokyo-verdy",
+    "name": "東京ヴェルディ"
+  },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}

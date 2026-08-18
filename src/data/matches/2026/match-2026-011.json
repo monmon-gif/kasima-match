@@ -1,0 +1,24 @@
+{
+  "matchId": "match-2026-011",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第19節",
+  "date": "2026-12-13",
+  "kickoffTime": "14:00",
+  "venue": "エディオンピースウイング広島",
+  "homeAway": "AWAY",
+  "opponent": {
+    "opponentId": "sanfrecce-hiroshima",
+    "name": "サンフレッチェ広島"
+  },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}
