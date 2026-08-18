@@ -1,1 +1,1 @@
-import {routePaths} from './routes'; export const navigation=[['トップ',routePaths.home],['試合',routePaths.matches],['成績',routePaths.seasonStats],['選手',routePaths.players],['ランキング',routePaths.rankings]] as const;
+import {routePaths} from './routes'; export const navigation=[['トップ',routePaths.home],['試合',routePaths.matches],['成績',routePaths.seasonStats],['順位表',routePaths.standings],['選手',routePaths.players],['ランキング',routePaths.rankings]] as const;

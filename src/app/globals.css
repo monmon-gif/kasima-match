@@ -129,12 +129,29 @@
 .stat-difference span{color:#fff;font-weight:800}
 .leader-players{clear:both;padding-top:24px}
 .leader-players h3{margin:8px 0 0}
+.standings-panel{background:#fff;border-top:5px solid var(--red)}
+.standings-scroll{overflow-x:auto}
+.standings-table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.standings-table th,.standings-table td{padding:17px 14px;border-bottom:1px solid var(--line);text-align:center;white-space:nowrap}
+.standings-table thead th{background:var(--deep);color:#fff;font-size:11px;letter-spacing:.06em}
+.standings-table .team-column{text-align:left;min-width:230px}
+.standing-rank{font:700 22px Georgia;color:#888}
+.standing-points{font:700 23px Georgia;color:var(--red)}
+.kashima-standing{background:#fff0f2;box-shadow:inset 6px 0 0 var(--red)}
+.kashima-standing .standing-rank,.kashima-standing .standing-points{color:var(--red)}
+.kashima-standing .team-column{color:var(--red);font-weight:900}
+.antlers-marker{display:inline-block;margin-right:10px;padding:4px 7px;background:var(--red);color:#fff;font-size:8px;letter-spacing:.12em;vertical-align:2px}
+.standings-note{margin:0;padding:16px 20px;color:var(--muted);font-size:12px}
 
 @media(max-width:760px){
   .hero-stag{right:-27%;bottom:-4%;width:105%;opacity:.38}
   .hero::after{background:linear-gradient(90deg,#7c0719e8 0%,#8d081c80 62%,transparent)}
   .record-stat-grid{grid-template-columns:1fr}
   .goal-balance{border-left:0;border-top:6px solid var(--deep)}
+  .standings-table th,.standings-table td{padding:14px 11px}
+  .standings-table .team-column{min-width:200px;position:sticky;left:0;background:#fff;z-index:1}
+  .standings-table thead .team-column{background:var(--deep);z-index:2}
+  .standings-table .kashima-standing .team-column{background:#fff0f2}
 }
 
 @media(max-width:480px){

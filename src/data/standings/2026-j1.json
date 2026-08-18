@@ -1,0 +1,27 @@
+{
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "updatedAt": "2026-08-18",
+  "teams": [
+    { "teamId": "machida-zelvia", "name": "FC町田ゼルビア", "wins": 2, "draws": 0, "losses": 0, "goalsFor": 9, "goalsAgainst": 1 },
+    { "teamId": "sanfrecce-hiroshima", "name": "サンフレッチェ広島", "wins": 2, "draws": 0, "losses": 0, "goalsFor": 7, "goalsAgainst": 1 },
+    { "teamId": "kashiwa-reysol", "name": "柏レイソル", "wins": 2, "draws": 0, "losses": 0, "goalsFor": 5, "goalsAgainst": 2 },
+    { "teamId": "kashima-antlers", "name": "鹿島アントラーズ", "wins": 2, "draws": 0, "losses": 0, "goalsFor": 6, "goalsAgainst": 4 },
+    { "teamId": "gamba-osaka", "name": "ガンバ大阪", "wins": 1, "draws": 1, "losses": 0, "goalsFor": 5, "goalsAgainst": 4 },
+    { "teamId": "vissel-kobe", "name": "ヴィッセル神戸", "wins": 1, "draws": 1, "losses": 0, "goalsFor": 3, "goalsAgainst": 2 },
+    { "teamId": "avispa-fukuoka", "name": "アビスパ福岡", "wins": 1, "draws": 0, "losses": 1, "goalsFor": 3, "goalsAgainst": 1 },
+    { "teamId": "yokohama-f-marinos", "name": "横浜F・マリノス", "wins": 1, "draws": 0, "losses": 1, "goalsFor": 4, "goalsAgainst": 4 },
+    { "teamId": "v-varen-nagasaki", "name": "V・ファーレン長崎", "wins": 1, "draws": 0, "losses": 1, "goalsFor": 2, "goalsAgainst": 2 },
+    { "teamId": "fagiano-okayama", "name": "ファジアーノ岡山", "wins": 1, "draws": 0, "losses": 1, "goalsFor": 2, "goalsAgainst": 2 },
+    { "teamId": "shimizu-s-pulse", "name": "清水エスパルス", "wins": 1, "draws": 0, "losses": 1, "goalsFor": 1, "goalsAgainst": 1 },
+    { "teamId": "cerezo-osaka", "name": "セレッソ大阪", "wins": 1, "draws": 0, "losses": 1, "goalsFor": 2, "goalsAgainst": 4 },
+    { "teamId": "kawasaki-frontale", "name": "川崎フロンターレ", "wins": 0, "draws": 2, "losses": 0, "goalsFor": 3, "goalsAgainst": 3 },
+    { "teamId": "kyoto-sanga", "name": "京都サンガF.C.", "wins": 0, "draws": 1, "losses": 1, "goalsFor": 3, "goalsAgainst": 4 },
+    { "teamId": "mito-hollyhock", "name": "水戸ホーリーホック", "wins": 0, "draws": 1, "losses": 1, "goalsFor": 2, "goalsAgainst": 3 },
+    { "teamId": "tokyo-verdy", "name": "東京ヴェルディ", "wins": 0, "draws": 1, "losses": 1, "goalsFor": 2, "goalsAgainst": 4 },
+    { "teamId": "fc-tokyo", "name": "FC東京", "wins": 0, "draws": 1, "losses": 1, "goalsFor": 3, "goalsAgainst": 7 },
+    { "teamId": "nagoya-grampus", "name": "名古屋グランパス", "wins": 0, "draws": 0, "losses": 2, "goalsFor": 1, "goalsAgainst": 3 },
+    { "teamId": "urawa-red-diamonds", "name": "浦和レッズ", "wins": 0, "draws": 0, "losses": 2, "goalsFor": 4, "goalsAgainst": 8 },
+    { "teamId": "jef-united-chiba", "name": "ジェフユナイテッド千葉", "wins": 0, "draws": 0, "losses": 2, "goalsFor": 0, "goalsAgainst": 7 }
+  ]
+}
