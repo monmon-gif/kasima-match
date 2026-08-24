@@ -4,21 +4,55 @@
   "competition": "2026/27明治安田J1リーグ",
   "round": "第3節",
   "date": "2026-08-22",
-  "kickoffTime": "18:00",
+  "kickoffTime": "18:03",
   "venue": "メルカリスタジアム",
   "homeAway": "HOME",
-  "opponent": {
-    "opponentId": "avispa-fukuoka",
-    "name": "アビスパ福岡"
-  },
-  "status": "SCHEDULED",
+  "opponent": { "opponentId": "avispa-fukuoka", "name": "アビスパ福岡" },
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "score": { "kashima": 3, "opponent": 2 },
+  "result": "WIN",
+  "attendance": 24717,
+  "goals": [
+    { "minute": 31, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "OWN_GOAL" },
+    { "minute": 43, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" },
+    { "minute": 60, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-009", "assistPlayerId": "player-027", "goalType": "NORMAL" },
+    { "minute": 64, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-077", "assistPlayerId": "player-040", "goalType": "NORMAL" },
+    { "minute": 76, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "OWN_GOAL" }
+  ],
+  "startingPlayers": [
+    { "playerId": "player-001", "position": "GK" },
+    { "playerId": "player-037", "position": "DF" },
+    { "playerId": "player-055", "position": "DF" },
+    { "playerId": "player-005", "position": "DF" },
+    { "playerId": "player-007", "position": "DF" },
+    { "playerId": "player-010", "position": "MF" },
+    { "playerId": "player-008", "position": "MF" },
+    { "playerId": "player-027", "position": "MF" },
+    { "playerId": "player-030", "position": "MF" },
+    { "playerId": "player-040", "position": "FW" },
+    { "playerId": "player-009", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-021", "entered": false },
+    { "playerId": "player-003", "entered": false },
+    { "playerId": "player-023", "entered": true },
+    { "playerId": "player-025", "entered": true },
+    { "playerId": "player-006", "entered": true },
+    { "playerId": "player-017", "entered": false },
+    { "playerId": "player-024", "entered": true },
+    { "playerId": "player-034", "entered": false },
+    { "playerId": "player-077", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 58, "additionalTime": null, "playerOutId": "player-030", "playerInId": "player-077" },
+    { "minute": 58, "additionalTime": null, "playerOutId": "player-008", "playerInId": "player-006" },
+    { "minute": 68, "additionalTime": null, "playerOutId": "player-027", "playerInId": "player-024" },
+    { "minute": 85, "additionalTime": null, "playerOutId": "player-010", "playerInId": "player-023" },
+    { "minute": 85, "additionalTime": null, "playerOutId": "player-037", "playerInId": "player-025" }
+  ],
+  "cards": [
+    { "minute": 39, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
+    { "minute": 67, "additionalTime": null, "team": "KASHIMA", "playerId": "player-005", "type": "YELLOW" }
+  ]
 }
