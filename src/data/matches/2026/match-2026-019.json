@@ -1,0 +1,22 @@
+{
+  "matchId": "match-2026-019",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第13節",
+  "date": "2026-10-31",
+  "dateCandidates": ["2026-10-31","2026-11-01"],
+  "kickoffTime": "15:00",
+  "venue": "メルカリスタジアム",
+  "homeAway": "HOME",
+  "opponent": { "opponentId": "cerezo-osaka", "name": "セレッソ大阪" },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}

@@ -1,0 +1,22 @@
+{
+  "matchId": "match-2026-015",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第8節",
+  "date": "2026-09-19",
+  "dateCandidates": ["2026-09-19","2026-09-20"],
+  "kickoffTime": "",
+  "venue": "Uvanceとどろきスタジアム by Fujitsu",
+  "homeAway": "AWAY",
+  "opponent": { "opponentId": "kawasaki-frontale", "name": "川崎フロンターレ" },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}

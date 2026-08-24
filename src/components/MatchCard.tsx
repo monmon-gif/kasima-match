@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import type { Match } from '@/types/match';
-import { formatDate } from '@/utils/formatDate';
+import { formatMatchDate } from '@/utils/formatDate';
 
 const resultLabels = {
   WIN: '勝利',
@@ -36,7 +36,8 @@ export function MatchCard({ match }: MatchCardProps) {
       </div>
 
       <p className="date">
-        {formatDate(match.date)}　{match.kickoffTime}
+        {formatMatchDate(match.date, match.dateCandidates)}　
+        {match.kickoffTime || '時刻未定'}
       </p>
 
       <div className="scoreline">

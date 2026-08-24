@@ -1,0 +1,22 @@
+{
+  "matchId": "match-2026-021",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第17節",
+  "date": "2026-11-28",
+  "dateCandidates": ["2026-11-28","2026-11-29"],
+  "kickoffTime": "15:00",
+  "venue": "メルカリスタジアム",
+  "homeAway": "HOME",
+  "opponent": { "opponentId": "fagiano-okayama", "name": "ファジアーノ岡山" },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}

@@ -1,0 +1,21 @@
+{
+  "matchId": "match-2026-014",
+  "season": 2026,
+  "competition": "2026/27明治安田J1リーグ",
+  "round": "第7節",
+  "date": "2026-09-11",
+  "kickoffTime": "19:00",
+  "venue": "ノエビアスタジアム神戸",
+  "homeAway": "AWAY",
+  "opponent": { "opponentId": "vissel-kobe", "name": "ヴィッセル神戸" },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}

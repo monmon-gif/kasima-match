@@ -9,6 +9,7 @@ export type Card = MatchMinute & { team: 'KASHIMA' | 'OPPONENT'; playerId: strin
 
 export type Match = {
   matchId: string; season: number; competition: string; round: string; date: string;
+  dateCandidates?: string[];
   kickoffTime: string; venue: string; homeAway: HomeAway;
   opponent: { opponentId: string; name: string }; status: MatchStatus; matchDuration: number;
   score: { kashima: number; opponent: number } | null; result: MatchResult; attendance: number | null;
