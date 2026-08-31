@@ -1,24 +1,38 @@
 {
-  "matchId": "match-2026-004",
-  "season": 2026,
-  "competition": "天皇杯 JFA 第106回全日本サッカー選手権大会",
-  "round": "2回戦",
-  "date": "2026-08-26",
-  "kickoffTime": "19:00",
-  "venue": "メルカリスタジアム",
-  "homeAway": "HOME",
-  "opponent": {
-    "opponentId": "tbd",
-    "name": "未定"
-  },
-  "status": "SCHEDULED",
-  "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "matchId": "match-2026-004", "season": 2026,
+  "competition": "天皇杯 JFA 第106回全日本サッカー選手権大会", "round": "2回戦",
+  "date": "2026-08-26", "kickoffTime": "19:00", "venue": "メルカリスタジアム", "homeAway": "HOME",
+  "opponent": { "opponentId": "atletico-suzuka-club", "name": "アトレチコ鈴鹿クラブ" },
+  "status": "FINISHED", "matchDuration": 90, "score": { "kashima": 3, "opponent": 0 }, "result": "WIN", "attendance": 7229,
+  "goals": [
+    { "minute": 47, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-004", "assistPlayerId": null, "goalType": "NORMAL" },
+    { "minute": 75, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-077", "assistPlayerId": null, "goalType": "PENALTY" },
+    { "minute": 90, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-009", "assistPlayerId": "player-007", "goalType": "NORMAL" }
+  ],
+  "startingPlayers": [
+    { "playerId": "player-021", "position": "GK" }, { "playerId": "player-003", "position": "DF" },
+    { "playerId": "player-004", "position": "DF" }, { "playerId": "player-023", "position": "DF" },
+    { "playerId": "player-028", "position": "DF" }, { "playerId": "player-006", "position": "MF" },
+    { "playerId": "player-017", "position": "MF" }, { "playerId": "player-024", "position": "MF" },
+    { "playerId": "player-035", "position": "MF" }, { "playerId": "player-030", "position": "FW" },
+    { "playerId": "player-077", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-029", "entered": false }, { "playerId": "player-007", "entered": true },
+    { "playerId": "player-037", "entered": false }, { "playerId": "player-055", "entered": false },
+    { "playerId": "player-008", "entered": true }, { "playerId": "player-027", "entered": true },
+    { "playerId": "player-042", "entered": false }, { "playerId": "player-009", "entered": true },
+    { "playerId": "player-040", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 60, "additionalTime": null, "playerOutId": "player-030", "playerInId": "player-009" },
+    { "minute": 60, "additionalTime": null, "playerOutId": "player-017", "playerInId": "player-027" },
+    { "minute": 78, "additionalTime": null, "playerOutId": "player-006", "playerInId": "player-008" },
+    { "minute": 78, "additionalTime": null, "playerOutId": "player-028", "playerInId": "player-007" },
+    { "minute": 83, "additionalTime": null, "playerOutId": "player-077", "playerInId": "player-040" }
+  ],
+  "cards": [
+    { "minute": 55, "additionalTime": null, "team": "KASHIMA", "playerId": "player-004", "type": "YELLOW" },
+    { "minute": 73, "additionalTime": null, "team": "KASHIMA", "playerId": "player-028", "type": "YELLOW" }
+  ]
 }
