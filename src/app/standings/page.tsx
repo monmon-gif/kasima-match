@@ -60,7 +60,7 @@ export default function StandingsPage() {
             </tbody>
           </table>
         </div>
-        <p className="standings-note">順位データは手動更新です。最新情報は公式情報もご確認ください。</p>
+        <p className="standings-note">この表はリーグ戦のみの集計です。順位データは手動更新のため、最新情報は公式情報もご確認ください。</p>
       </section>
     </>
   );

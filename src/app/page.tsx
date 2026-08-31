@@ -5,7 +5,7 @@ import { MatchCard } from '@/components/MatchCard';
 import { StatGrid } from '@/components/StatGrid';
 import {
   getLatestMatch,
-  getMatches,
+  getJ1LeagueMatches,
   getNextMatch,
 } from '@/services/matchService';
 import { getActivePlayers } from '@/services/playerService';
@@ -16,14 +16,14 @@ const CURRENT_SEASON = 2026;
 
 export default function Home() {
   // 画面ではJSONを直接読まず、ServiceとUtilityから表示用データを作る。
-  const matches = getMatches();
+  const leagueMatches = getJ1LeagueMatches(CURRENT_SEASON);
   const latestMatch = getLatestMatch(CURRENT_SEASON);
   const nextMatch = getNextMatch(CURRENT_SEASON);
-  const seasonStats = calculateSeasonStats(matches, CURRENT_SEASON);
+  const seasonStats = calculateSeasonStats(leagueMatches, CURRENT_SEASON);
 
   const playerRankings = getActivePlayers().map((player) => ({
     player,
-    ...calculatePlayerStats(matches, player.playerId),
+    ...calculatePlayerStats(leagueMatches, player.playerId),
   }));
 
   const topScorer = [...playerRankings].sort(
@@ -65,6 +65,7 @@ export default function Home() {
           <div>
             <p className="eyebrow">SEASON RECORD</p>
             <h2>今シーズンの成績</h2>
+            <p>リーグ戦のみの集計</p>
           </div>
           <Link href="/season-stats">詳しく見る →</Link>
         </div>
@@ -96,6 +97,7 @@ export default function Home() {
           <div>
             <p className="eyebrow">PLAYER LEADERS</p>
             <h2>チーム内ランキング</h2>
+            <p>リーグ戦のみの個人成績</p>
           </div>
           <Link href="/rankings">ランキング →</Link>
         </div>
