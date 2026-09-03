@@ -20,12 +20,45 @@
     { "minute": 8, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "PENALTY" },
     { "minute": 21, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" },
     { "minute": 48, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" },
-    { "minute": 53, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-009", "assistPlayerId": null, "goalType": "NORMAL" },
+    { "minute": 53, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-009", "assistPlayerId": "player-040", "goalType": "NORMAL" },
     { "minute": 55, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" },
-    { "minute": 83, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-009", "assistPlayerId": null, "goalType": "NORMAL" }
+    { "minute": 83, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-009", "assistPlayerId": "player-023", "goalType": "NORMAL" }
   ],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "startingPlayers": [
+    { "playerId": "player-001", "position": "GK" },
+    { "playerId": "player-005", "position": "DF" },
+    { "playerId": "player-007", "position": "DF" },
+    { "playerId": "player-037", "position": "DF" },
+    { "playerId": "player-055", "position": "DF" },
+    { "playerId": "player-008", "position": "MF" },
+    { "playerId": "player-010", "position": "MF" },
+    { "playerId": "player-017", "position": "MF" },
+    { "playerId": "player-027", "position": "MF" },
+    { "playerId": "player-009", "position": "FW" },
+    { "playerId": "player-040", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-003", "entered": true },
+    { "playerId": "player-006", "entered": true },
+    { "playerId": "player-011", "entered": true },
+    { "playerId": "player-023", "entered": true },
+    { "playerId": "player-077", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 45, "additionalTime": null, "playerOutId": "player-008", "playerInId": "player-006" },
+    { "minute": 45, "additionalTime": null, "playerOutId": "player-055", "playerInId": "player-003" },
+    { "minute": 45, "additionalTime": null, "playerOutId": "player-017", "playerInId": "player-077" },
+    { "minute": 68, "additionalTime": null, "playerOutId": "player-037", "playerInId": "player-011" },
+    { "minute": 80, "additionalTime": null, "playerOutId": "player-010", "playerInId": "player-023" }
+  ],
+  "cards": [
+    { "minute": 5, "additionalTime": null, "team": "KASHIMA", "playerId": "player-001", "type": "YELLOW" },
+    { "minute": 70, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" }
+  ],
+    "authorComment": {
+    "summary": "茨城ダービー...またここで負けるか",
+    "goodPoint": "レオセアラ、優磨はよくやってくれている。",
+    "badPoint": "失点が多すぎる、渡邉が良かったのはあるが...早川、植田がこれまで（24/25シーズン、100年構想）が良すぎたのがある。スペースのカバーを植田ができていたことが分かった。いきなりは、難しい。エウベルと小川の割るところが出てしまったね。審判さんPKではなかったのでは...",
+    "expectation": "個人的には、ここらで負けたのはいい気がする。甘くないのを改めて確認できたので、次節勝ってまた再スタートしよう。まだ、5節目！！"
+  }
 }

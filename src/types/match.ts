@@ -6,6 +6,12 @@ export type HomeAway = 'HOME' | 'AWAY' | 'NEUTRAL';
 export type MatchMinute = { minute: number; additionalTime: number | null };
 export type Goal = MatchMinute & { team: 'KASHIMA' | 'OPPONENT'; scorerPlayerId: string | null; assistPlayerId: string | null; goalType: 'NORMAL' | 'PENALTY' | 'OWN_GOAL' | 'FREE_KICK' };
 export type Card = MatchMinute & { team: 'KASHIMA' | 'OPPONENT'; playerId: string | null; type: 'YELLOW' | 'SECOND_YELLOW' | 'RED' };
+export type AuthorComment = {
+  summary: string;
+  goodPoint: string;
+  badPoint: string;
+  expectation: string;
+};
 
 export type Match = {
   matchId: string; season: number; competition: string; round: string; date: string;
@@ -16,4 +22,5 @@ export type Match = {
   goals: Goal[]; startingPlayers: { playerId: string; position: PlayerPosition }[];
   substitutePlayers: { playerId: string; entered: boolean }[];
   substitutions: (MatchMinute & { playerOutId: string; playerInId: string })[]; cards: Card[];
+  authorComment?: AuthorComment;
 };

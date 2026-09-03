@@ -54,5 +54,11 @@
   "cards": [
     { "minute": 39, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
     { "minute": 67, "additionalTime": null, "team": "KASHIMA", "playerId": "player-005", "type": "YELLOW" }
-  ]
+  ],
+    "authorComment": {
+    "summary": "バモス！！現地観戦3(師岡なにしとんねん)",
+    "goodPoint": "攻撃陣主に、レオセアラ、チャッキーさすが過ぎます。",
+    "badPoint": "やはり、守備が気になる。濃野、キムテヒョンがいないだけでこれだけ変わるのか。関川が活躍したのはうれしいが、全体的に100年構の想安定した守備はどこへ行ってしまったのだろうか",
+    "expectation": "植田、早川が安定していない気がする。キムテヒョン、関川のコンビが見てみたい。"
+  }
 }
