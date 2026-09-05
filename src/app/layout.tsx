@@ -1,7 +1,11 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { Navigation } from '@/components/Navigation';
+
+// ファビコン用の画像とヘッダーのロゴで同じ画像を使用
+import crest from './icon.png';
 
 import './globals.css';
 
@@ -26,7 +30,14 @@ export default function RootLayout({
         <header>
           <div className="header-inner">
             <Link href="/" className="brand">
-              <span className="crest">A</span>
+              <Image
+                className="crest"
+                src={crest}
+                alt="鹿島アントラーズ"
+                width={49}
+                height={48}
+                priority
+              />
               <span>
                 ANTLERS
                 <br />
