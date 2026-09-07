@@ -11,14 +11,55 @@
     "opponentId": "urawa-red-diamonds",
     "name": "浦和レッズ"
   },
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "score": { "kashima": 0, "opponent": 1 },
+  "result": "LOSE",
+  "attendance": 26589,
+  "goals": [
+    { "minute": 20, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "OWN_GOAL" }
+  ],
+  "startingPlayers": [
+    { "playerId": "player-001", "position": "GK" },
+    { "playerId": "player-003", "position": "DF" },
+    { "playerId": "player-007", "position": "DF" },
+    { "playerId": "player-023", "position": "DF" },
+    { "playerId": "player-055", "position": "DF" },
+    { "playerId": "player-006", "position": "MF" },
+    { "playerId": "player-008", "position": "MF" },
+    { "playerId": "player-024", "position": "MF" },
+    { "playerId": "player-077", "position": "MF" },
+    { "playerId": "player-009", "position": "FW" },
+    { "playerId": "player-040", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-021", "entered": false },
+    { "playerId": "player-004", "entered": false },
+    { "playerId": "player-025", "entered": false },
+    { "playerId": "player-037", "entered": true },
+    { "playerId": "player-010", "entered": true },
+    { "playerId": "player-035", "entered": false },
+    { "playerId": "player-027", "entered": true },
+    { "playerId": "player-011", "entered": true },
+    { "playerId": "player-030", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 45, "additionalTime": null, "playerOutId": "player-024", "playerInId": "player-027" },
+    { "minute": 63, "additionalTime": null, "playerOutId": "player-077", "playerInId": "player-011" },
+    { "minute": 63, "additionalTime": null, "playerOutId": "player-008", "playerInId": "player-010" },
+    { "minute": 68, "additionalTime": null, "playerOutId": "player-011", "playerInId": "player-030" },
+    { "minute": 80, "additionalTime": null, "playerOutId": "player-006", "playerInId": "player-037" }
+  ],
+  "cards": [
+    { "minute": 17, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
+    { "minute": 42, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
+    { "minute": 55, "additionalTime": null, "team": "KASHIMA", "playerId": "player-077", "type": "YELLOW" },
+    { "minute": 70, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" }
+  ],
+    "authorComment": {
+    "summary": "悔しい。この一言",
+    "goodPoint": "キムテヒョンがしっかりと相手をつぶせていた。流れでの失点はなかったこれを続けていきたい。守備が安定していたように見えた。",
+    "badPoint": "決めるところを決めきれないと勝てない。松村君は良くやってくれた。決定機こそ外してしまったが、それ以上のことをしている。続けてほしい。マテウスブエノがはまっていないように見えた試合となった。個人技は素晴らしいが、周りとあっていないような感じがある。",
+    "expectation": "3連敗は避けたいが、次は、宿敵神戸。ここで勝てたら、優勝が狙える。勝てなければ今節は厳しいかなと個人的に思う。"
+  }
 }
