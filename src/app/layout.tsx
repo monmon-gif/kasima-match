@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 import { Navigation } from '@/components/Navigation';
+import { AffiliateSection } from '@/components/AffiliateSection';
+import { getAffiliateOffers } from '@/services/affiliateService';
 
 import './globals.css';
 
@@ -39,7 +41,10 @@ export default function RootLayout({
         </header>
 
         {/* 各URLに対応するページコンポーネントがchildrenへ入る */}
-        <main className="container">{children}</main>
+        <main className="container">
+          {children}
+          <AffiliateSection offers={getAffiliateOffers()} />
+        </main>
 
         <footer>
           <div className="container">

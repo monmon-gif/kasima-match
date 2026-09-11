@@ -1,6 +1,5 @@
 import offers from '@/data/affiliate/offers.json';
 import type { AffiliateOffer } from '@/types/affiliate';
-import type { MatchStatus } from '@/types/match';
 
 function isRakutenAffiliateUrl(value: string): boolean {
   try {
@@ -17,10 +16,8 @@ function isRakutenAffiliateUrl(value: string): boolean {
   }
 }
 
-/** 終了済み試合のコメント下に、登録済みの楽天案件を掲載順で返す。 */
-export function getMatchAffiliateOffers(status: MatchStatus): AffiliateOffer[] {
-  if (status !== 'FINISHED') return [];
-
+/** 全ページ共通の下部枠に、登録済みの楽天案件を掲載順で返す。 */
+export function getAffiliateOffers(): AffiliateOffer[] {
   return offers
     .filter((offer) => offer.enabled && isRakutenAffiliateUrl(offer.linkUrl))
     .slice(0, 3);
