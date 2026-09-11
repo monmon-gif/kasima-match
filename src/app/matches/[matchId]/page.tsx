@@ -1,4 +1,6 @@
 import { notFound } from 'next/navigation';
+import { AffiliateSection } from '@/components/AffiliateSection';
+import { getMatchAffiliateOffers } from '@/services/affiliateService';
 import { getMatchById, getMatches } from '@/services/matchService';
 import { getPlayerName } from '@/services/playerService';
 import { formatMatchDate } from '@/utils/formatDate';
@@ -164,6 +166,7 @@ export default async function MatchDetail({ params }: MatchDetailProps) {
               <p>コメントなし</p>
             )}
           </section>
+          <AffiliateSection offers={getMatchAffiliateOffers(match.status)} />
         </>
       )}
     </>
