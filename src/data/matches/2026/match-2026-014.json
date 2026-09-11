@@ -14,8 +14,30 @@
   "result": null,
   "attendance": null,
   "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
+  "startingPlayers": [
+    { "playerId": "player-001", "position": "GK" },
+    { "playerId": "player-023", "position": "DF" },
+    { "playerId": "player-055", "position": "DF" },
+    { "playerId": "player-003", "position": "DF" },
+    { "playerId": "player-007", "position": "DF" },
+    { "playerId": "player-006", "position": "MF" },
+    { "playerId": "player-008", "position": "MF" },
+    { "playerId": "player-037", "position": "MF" },
+    { "playerId": "player-027", "position": "MF" },
+    { "playerId": "player-040", "position": "FW" },
+    { "playerId": "player-034", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-021", "entered": false },
+    { "playerId": "player-004", "entered": false },
+    { "playerId": "player-025", "entered": false },
+    { "playerId": "player-010", "entered": false },
+    { "playerId": "player-035", "entered": false },
+    { "playerId": "player-018", "entered": false },
+    { "playerId": "player-024", "entered": false },
+    { "playerId": "player-030", "entered": false },
+    { "playerId": "player-077", "entered": false }
+  ],
   "substitutions": [],
   "cards": []
 }

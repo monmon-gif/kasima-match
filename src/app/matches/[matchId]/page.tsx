@@ -56,10 +56,41 @@ export default async function MatchDetail({ params }: MatchDetailProps) {
       </section>
 
       {match.status === 'SCHEDULED' ? (
-        <section className="empty">
-          <h2>試合開始前です</h2>
-          <p>メンバー・試合結果は決まり次第掲載します。</p>
-        </section>
+        <>
+          <section className="empty">
+            <h2>試合開始前です</h2>
+            <p>
+              {match.startingPlayers.length > 0
+                ? '先発メンバー発表済みです。試合結果は試合終了後に掲載します。'
+                : 'メンバー・試合結果は決まり次第掲載します。'}
+            </p>
+          </section>
+          {match.startingPlayers.length > 0 && (
+            <section>
+              <h2>鹿島アントラーズ 先発メンバー</h2>
+              <div className="lineup">
+                {match.startingPlayers.map((player) => (
+                  <div key={player.playerId}>
+                    <span>{player.position}</span>
+                    <strong>{getPlayerName(player.playerId)}</strong>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+          {match.substitutePlayers.length > 0 && (
+            <section>
+              <h2>鹿島アントラーズ 控えメンバー</h2>
+              <div className="lineup">
+                {match.substitutePlayers.map((player) => (
+                  <div key={player.playerId}>
+                    <strong>{getPlayerName(player.playerId)}</strong>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+        </>
       ) : (
         <>
           <div className="two-col">
