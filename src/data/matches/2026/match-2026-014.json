@@ -8,12 +8,16 @@
   "venue": "ノエビアスタジアム神戸",
   "homeAway": "AWAY",
   "opponent": { "opponentId": "vissel-kobe", "name": "ヴィッセル神戸" },
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
+  "score": { "kashima": 1, "opponent": 2 },
+  "result": "LOSE",
+  "attendance": 17110,
+  "goals": [
+    { "minute": 56, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "PENALTY" },
+    { "minute": 73, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-077", "assistPlayerId": "player-018", "goalType": "NORMAL" },
+    { "minute": 77, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" }
+  ],
   "startingPlayers": [
     { "playerId": "player-001", "position": "GK" },
     { "playerId": "player-023", "position": "DF" },
@@ -30,14 +34,30 @@
   "substitutePlayers": [
     { "playerId": "player-021", "entered": false },
     { "playerId": "player-004", "entered": false },
-    { "playerId": "player-025", "entered": false },
-    { "playerId": "player-010", "entered": false },
+    { "playerId": "player-025", "entered": true },
+    { "playerId": "player-010", "entered": true },
     { "playerId": "player-035", "entered": false },
-    { "playerId": "player-018", "entered": false },
-    { "playerId": "player-024", "entered": false },
+    { "playerId": "player-018", "entered": true },
+    { "playerId": "player-024", "entered": true },
     { "playerId": "player-030", "entered": false },
-    { "playerId": "player-077", "entered": false }
+    { "playerId": "player-077", "entered": true }
   ],
-  "substitutions": [],
-  "cards": []
+  "substitutions": [
+    { "minute": 65, "additionalTime": null, "playerOutId": "player-037", "playerInId": "player-025" },
+    { "minute": 65, "additionalTime": null, "playerOutId": "player-023", "playerInId": "player-018" },
+    { "minute": 65, "additionalTime": null, "playerOutId": "player-034", "playerInId": "player-077" },
+    { "minute": 78, "additionalTime": null, "playerOutId": "player-008", "playerInId": "player-010" },
+    { "minute": 81, "additionalTime": null, "playerOutId": "player-007", "playerInId": "player-024" }
+  ],
+  "cards": [
+    { "minute": 23, "additionalTime": null, "team": "KASHIMA", "playerId": "player-023", "type": "YELLOW" },
+    { "minute": 25, "additionalTime": null, "team": "KASHIMA", "playerId": "player-037", "type": "YELLOW" },
+    { "minute": 90, "additionalTime": 1, "team": "KASHIMA", "playerId": "player-006", "type": "YELLOW" }
+  ],
+    "authorComment": {
+    "summary": "8位転落",
+    "goodPoint": "ブエノをトップ下で使うほうが、はまっていたように見えた。津久井君の良さが出ていた。ヤンマテよく帰ってきてくれた。収穫はこれだけかね。",
+    "badPoint": "決めた後に失点。ロングスローだけでやられた。対処は難しいのは経験したことがあるからわかる。でも、前半は完ぺきに抑えられていたのにもったいない気がした。そのほかはしっかりと絶えて戦えていたし、すごく面白い試合だったと個人的に感じた。",
+    "expectation": "いつもの優磨なら、ここぞの場面で決めてくれた。今回は違った。でも、鹿島の象徴40を背負って戦い続けている。絶対に優勝するために得点をたくさん取ってくれると信じている。1点取れば必ず乗ってくる。まずは1点その日が来るまでそう遠くない。Next川崎戦。最後にチャッキー鹿島の男だ"
+  }
 }
