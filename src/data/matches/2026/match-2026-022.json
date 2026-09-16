@@ -1,0 +1,54 @@
+{
+  "matchId": "match-2026-022", "season": 2026, "competition": "2026/27 AFCチャンピオンズリーグElite", "round": "リーグステージ 第1節 東地区",
+  "date": "2026-09-15", "kickoffTime": "19:01", "venue": "カシマサッカースタジアム", "homeAway": "HOME",
+  "opponent": { "opponentId": "newcastle-jets", "name": "ニューカッスル・ジェッツ" },
+  "status": "FINISHED", "matchDuration": 90, "score": { "kashima": 7, "opponent": 1 }, "result": "WIN", "attendance": 5761,
+  "goals": [
+    { "minute": 11, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-077", "assistPlayerId": "player-034", "goalType": "NORMAL" },
+    { "minute": 16, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-077", "assistPlayerId": "player-027", "goalType": "NORMAL" },
+    { "minute": 19, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-007", "assistPlayerId": "player-027", "goalType": "NORMAL" },
+    { "minute": 40, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-034", "assistPlayerId": "player-007", "goalType": "NORMAL" },
+    { "minute": 42, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-077", "assistPlayerId": "player-018", "goalType": "NORMAL" },
+    { "minute": 56, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-034", "assistPlayerId": "player-010", "goalType": "NORMAL" },
+    { "minute": 73, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-011", "assistPlayerId": "player-024", "goalType": "NORMAL" },
+    { "minute": 79, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" }
+  ],
+  "startingPlayers": [
+    { "playerId": "player-001", "position": "GK" },
+    { "playerId": "player-003", "position": "DF" },
+    { "playerId": "player-007", "position": "DF" },
+    { "playerId": "player-037", "position": "DF" },
+    { "playerId": "player-055", "position": "DF" },
+    { "playerId": "player-006", "position": "MF" },
+    { "playerId": "player-010", "position": "MF" },
+    { "playerId": "player-027", "position": "MF" },
+    { "playerId": "player-077", "position": "MF" },
+    { "playerId": "player-018", "position": "FW" },
+    { "playerId": "player-034", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-023", "entered": true },
+    { "playerId": "player-040", "entered": true },
+    { "playerId": "player-024", "entered": true },
+    { "playerId": "player-011", "entered": true },
+    { "playerId": "player-025", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 46, "additionalTime": null, "playerOutId": "player-006", "playerInId": "player-023" },
+    { "minute": 46, "additionalTime": null, "playerOutId": "player-077", "playerInId": "player-040" },
+    { "minute": 46, "additionalTime": null, "playerOutId": "player-027", "playerInId": "player-024" },
+    { "minute": 72, "additionalTime": null, "playerOutId": "player-018", "playerInId": "player-011" },
+    { "minute": 84, "additionalTime": null, "playerOutId": "player-007", "playerInId": "player-025" }
+  ],
+  "cards": [
+    { "minute": 70, "additionalTime": null, "team": "KASHIMA", "playerId": "player-007", "type": "YELLOW" },
+    { "minute": 75, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
+    { "minute": 87, "additionalTime": null, "team": "KASHIMA", "playerId": "player-003", "type": "YELLOW" }
+  ],
+    "authorComment": {
+    "summary": "快勝",
+    "goodPoint": "チャッキー流石っす。今季点とりまくってやばいね。リーグ戦でも頼みます。徳田君も",
+    "badPoint": "失点がいらなかったな。後半相手にボールを盛られる場面が多かった。",
+    "expectation": "この調子で、リーグ戦立て直したいね。Niceハットトリックチャッキー"
+  }
+}
