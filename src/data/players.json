@@ -9,6 +9,7 @@
   {"playerId":"player-004","name":"千田 海人","nameEn":"Kaito Chida","number":4,"position":"DF","dateOfBirth":"1994-10-17","height":186,"weight":82,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
   {"playerId":"player-005","name":"関川 郁万","nameEn":"Ikuma Sekigawa","number":5,"position":"DF","dateOfBirth":"2000-09-13","height":182,"weight":72,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
   {"playerId":"player-007","name":"小川 諒也","nameEn":"Ryoya Ogawa","number":7,"position":"DF","dateOfBirth":"1996-11-24","height":183,"weight":78,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},
+  {"playerId":"player-019","name":"大森 渚生","nameEn":"Sho Omori","number":19,"position":"DF","dateOfBirth":"1999-08-19","height":177,"weight":75,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},
   {"playerId":"player-023","name":"津久井 佳祐","nameEn":"Keisuke Tsukui","number":23,"position":"DF","dateOfBirth":"2004-05-21","height":180,"weight":70,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
   {"playerId":"player-025","name":"小池 龍太","nameEn":"Ryuta Koike","number":25,"position":"DF","dateOfBirth":"1995-08-29","height":170,"weight":65,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
   {"playerId":"player-028","name":"大川 佑梧","nameEn":"Yugo Okawa","number":28,"position":"DF","dateOfBirth":"2007-07-14","height":185,"weight":73,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},

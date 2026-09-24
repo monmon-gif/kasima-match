@@ -234,9 +234,18 @@
 
 ## 試合記録の出典・補足
 
+- `match-2026-015`: [Jリーグ公式記録（2026年9月19日 川崎戦）](https://www.jleague.jp/match/j1/2026/091909/)を参照。ハーフタイムの交代は46分として記録。ベンチ入りのみの未出場選手は未確認のため未登録。監督・コーチへの警告は選手のカード集計に含めない。
+- `match-2026-023`: [JFA公式記録（2026年9月23日 天皇杯3回戦 甲府戦）](https://www.jfa.jp/match/emperorscup_2026/match_page/m57.html)および[公式記録PDF](https://www.jfa.jp/match/emperorscup_2026/schedule_result/pdf/m57.pdf)を参照。アシストは得点経過の直前のパスから記録し、相手GKのクリアを挟む大森の得点はアシストなし。実際の開始時刻・入場者数は[Jリーグ公式](https://www.jleague.jp/match/emperor/2026/092317/)を参照。
+
 - `match-2026-022`: [Jリーグ公式記録（2026年9月15日 ニューカッスル・ジェッツ戦）](https://www.jleague.jp/match/acle/2026/091503/)を参照。ハーフタイムの交代は46分として記録。ベンチ入りのみの未出場選手は未確認のため未登録。
 
 ## standings/
 
 順位表は `standings/2026-j1.json` で管理します。各チームの勝・分・敗・得点・失点を更新してください。
 試合数、勝点、得失点差、順位は画面側で自動計算されます。
+
+- `2026-j1.json`: [Jリーグ公式順位表](https://www.jleague.jp/j1/standings/)の2026年9月20日更新（第8節終了時点）に基づき、全20チームの成績を反映。
+
+## 選手情報の出典・補足
+
+- 大森渚生（player-019）: 2026年9月16日、ユーザーが確認した公式アカウントの加入・背番号19の情報を反映。プロフィールは水戸公式の2025年マッチデープログラム（https://www.mito-hollyhock.net/wp-content/uploads/2025/04/MHH_mdp_2025_8_s.pdf）、利き足はスポニチ報道（https://news.livedoor.com/article/detail/32334161/）を参照。

@@ -1,0 +1,56 @@
+{
+  "matchId": "match-2026-023",
+  "season": 2026,
+  "competition": "天皇杯 JFA 第106回全日本サッカー選手権大会",
+  "round": "3回戦",
+  "date": "2026-09-23",
+  "kickoffTime": "17:01",
+  "venue": "メルカリスタジアム",
+  "homeAway": "HOME",
+  "opponent": { "opponentId": "ventforet-kofu", "name": "ヴァンフォーレ甲府" },
+  "status": "FINISHED",
+  "matchDuration": 90,
+  "score": { "kashima": 3, "opponent": 1 },
+  "result": "WIN",
+  "attendance": 11498,
+  "goals": [
+    { "minute": 34, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-009", "assistPlayerId": "player-008", "goalType": "NORMAL" },
+    { "minute": 54, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-030", "assistPlayerId": "player-009", "goalType": "NORMAL" },
+    { "minute": 62, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-019", "assistPlayerId": null, "goalType": "NORMAL" },
+    { "minute": 88, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" }
+  ],
+  "startingPlayers": [
+    { "playerId": "player-021", "position": "GK" },
+    { "playerId": "player-037", "position": "DF" },
+    { "playerId": "player-004", "position": "DF" },
+    { "playerId": "player-005", "position": "DF" },
+    { "playerId": "player-019", "position": "DF" },
+    { "playerId": "player-008", "position": "MF" },
+    { "playerId": "player-006", "position": "MF" },
+    { "playerId": "player-018", "position": "MF" },
+    { "playerId": "player-040", "position": "MF" },
+    { "playerId": "player-009", "position": "FW" },
+    { "playerId": "player-030", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-029", "entered": false },
+    { "playerId": "player-055", "entered": false },
+    { "playerId": "player-007", "entered": true },
+    { "playerId": "player-023", "entered": true },
+    { "playerId": "player-010", "entered": true },
+    { "playerId": "player-035", "entered": false },
+    { "playerId": "player-024", "entered": false },
+    { "playerId": "player-027", "entered": true },
+    { "playerId": "player-034", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 74, "additionalTime": null, "playerOutId": "player-030", "playerInId": "player-027" },
+    { "minute": 83, "additionalTime": null, "playerOutId": "player-018", "playerInId": "player-023" },
+    { "minute": 83, "additionalTime": null, "playerOutId": "player-040", "playerInId": "player-034" },
+    { "minute": 90, "additionalTime": null, "playerOutId": "player-037", "playerInId": "player-007" },
+    { "minute": 90, "additionalTime": null, "playerOutId": "player-009", "playerInId": "player-010" }
+  ],
+  "cards": [
+    { "minute": 59, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" }
+  ]
+}
