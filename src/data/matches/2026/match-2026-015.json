@@ -54,5 +54,11 @@
     { "minute": 60, "additionalTime": null, "team": "KASHIMA", "playerId": "player-006", "type": "YELLOW" },
     { "minute": 90, "additionalTime": 1, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
     { "minute": 90, "additionalTime": 8, "team": "OPPONENT", "playerId": null, "type": "YELLOW" }
-  ]
+  ],
+  "authorComment" : {
+    "summary": "レオセアラ、松村様様です。",
+    "goodPoint": "",
+    "badPoint": "ラストワンプレーで耐えれなかったのは、きついっす",
+    "expectation": ""
+  }
 }

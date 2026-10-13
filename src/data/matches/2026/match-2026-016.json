@@ -4,18 +4,55 @@
   "competition": "2026/27明治安田J1リーグ",
   "round": "第9節",
   "date": "2026-10-09",
-  "kickoffTime": "19:00",
+  "kickoffTime": "19:04",
   "venue": "メルカリスタジアム",
   "homeAway": "HOME",
   "opponent": { "opponentId": "gamba-osaka", "name": "ガンバ大阪" },
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "score": { "kashima": 2, "opponent": 0 },
+  "result": "WIN",
+  "attendance": 16240,
+  "goals": [
+    { "minute": 45, "additionalTime": 7, "team": "KASHIMA", "scorerPlayerId": "player-009", "assistPlayerId": "player-037", "goalType": "NORMAL" },
+    { "minute": 60, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-040", "assistPlayerId": "player-006", "goalType": "NORMAL" }
+  ],
+  "startingPlayers": [
+    { "playerId": "player-001", "position": "GK" },
+    { "playerId": "player-003", "position": "DF" },
+    { "playerId": "player-007", "position": "DF" },
+    { "playerId": "player-037", "position": "DF" },
+    { "playerId": "player-055", "position": "DF" },
+    { "playerId": "player-006", "position": "MF" },
+    { "playerId": "player-010", "position": "MF" },
+    { "playerId": "player-027", "position": "MF" },
+    { "playerId": "player-030", "position": "MF" },
+    { "playerId": "player-009", "position": "FW" },
+    { "playerId": "player-040", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-023", "entered": true },
+    { "playerId": "player-077", "entered": true },
+    { "playerId": "player-008", "entered": true },
+    { "playerId": "player-024", "entered": true },
+    { "playerId": "player-034", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 55, "additionalTime": null, "playerOutId": "player-037", "playerInId": "player-023" },
+    { "minute": 55, "additionalTime": null, "playerOutId": "player-030", "playerInId": "player-077" },
+    { "minute": 79, "additionalTime": null, "playerOutId": "player-010", "playerInId": "player-008" },
+    { "minute": 79, "additionalTime": null, "playerOutId": "player-009", "playerInId": "player-024" },
+    { "minute": 88, "additionalTime": null, "playerOutId": "player-040", "playerInId": "player-034" }
+  ],
+  "cards": [
+    { "minute": 55, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
+    { "minute": 76, "additionalTime": null, "team": "KASHIMA", "playerId": "player-003", "type": "YELLOW" },
+    { "minute": 84, "additionalTime": null, "team": "KASHIMA", "playerId": "player-007", "type": "YELLOW" }
+  ],
+  "authorComment" : {
+    "summary": "ゆううううまーー！",
+    "goodPoint": "全体的に支配できていた。危ないシーンは、調子を取り戻しつつある？早川様が止めてくれたので、クリーンシート！",
+    "badPoint": "特にはないかな。",
+    "expectation": "この調子で、まずは今月全勝したいところ。"
+  }
 }
