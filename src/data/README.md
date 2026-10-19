@@ -250,3 +250,6 @@
 ## 選手情報の出典・補足
 
 - 大森渚生（player-019）: 2026年9月16日、ユーザーが確認した公式アカウントの加入・背番号19の情報を反映。プロフィールは水戸公式の2025年マッチデープログラム（https://www.mito-hollyhock.net/wp-content/uploads/2025/04/MHH_mdp_2025_8_s.pdf）、利き足はスポニチ報道（https://news.livedoor.com/article/detail/32334161/）を参照。
+
+- `match-2026-017`: [Jリーグ公式記録（2026年10月17日 長崎戦）](https://www.jleague.jp/match/j1/2026/101711/lineup/)および[試合速報](https://www.jleague.jp/match/j1/2026/101711/live-commentary/)を参照。開始時刻・得点・アシスト・先発・ベンチ・交代・警告・入場者数を反映。ハーフタイムの交代は46分として記録。
+- `standings/2026-j1.json`: [Jリーグ公式順位表](https://www.jleague.jp/j1/standings/)の2026年10月18日18:16更新（第10節終了時点）を反映。

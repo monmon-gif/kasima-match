@@ -4,18 +4,65 @@
   "competition": "2026/27明治安田J1リーグ",
   "round": "第10節",
   "date": "2026-10-17",
-  "kickoffTime": "15:00",
+  "kickoffTime": "15:04",
   "venue": "メルカリスタジアム",
   "homeAway": "HOME",
-  "opponent": { "opponentId": "v-varen-nagasaki", "name": "V・ファーレン長崎" },
-  "status": "SCHEDULED",
+  "opponent": {
+    "opponentId": "v-varen-nagasaki",
+    "name": "V・ファーレン長崎"
+  },
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "score": {
+    "kashima": 2,
+    "opponent": 0
+  },
+  "result": "WIN",
+  "attendance": 25145,
+  "goals": [
+    { "minute": 2, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-009", "assistPlayerId": null, "goalType": "PENALTY" },
+    { "minute": 5, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-077", "assistPlayerId": "player-024", "goalType": "NORMAL" }
+  ],
+  "startingPlayers": [
+    { "playerId": "player-001", "position": "GK" },
+    { "playerId": "player-005", "position": "DF" },
+    { "playerId": "player-019", "position": "DF" },
+    { "playerId": "player-023", "position": "DF" },
+    { "playerId": "player-055", "position": "DF" },
+    { "playerId": "player-008", "position": "MF" },
+    { "playerId": "player-010", "position": "MF" },
+    { "playerId": "player-017", "position": "MF" },
+    { "playerId": "player-024", "position": "MF" },
+    { "playerId": "player-009", "position": "FW" },
+    { "playerId": "player-077", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-021", "entered": false },
+    { "playerId": "player-003", "entered": false },
+    { "playerId": "player-007", "entered": true },
+    { "playerId": "player-006", "entered": true },
+    { "playerId": "player-027", "entered": true },
+    { "playerId": "player-035", "entered": false },
+    { "playerId": "player-030", "entered": false },
+    { "playerId": "player-034", "entered": true },
+    { "playerId": "player-040", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 46, "additionalTime": null, "playerOutId": "player-019", "playerInId": "player-007" },
+    { "minute": 55, "additionalTime": null, "playerOutId": "player-017", "playerInId": "player-027" },
+    { "minute": 72, "additionalTime": null, "playerOutId": "player-010", "playerInId": "player-006" },
+    { "minute": 72, "additionalTime": null, "playerOutId": "player-077", "playerInId": "player-040" },
+    { "minute": 85, "additionalTime": null, "playerOutId": "player-009", "playerInId": "player-034" }
+  ],
+  "cards": [
+    { "minute": 23, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
+    { "minute": 43, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
+    { "minute": 82, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" }
+  ],
+  "authorComment" : {
+    "summary": "今日は何点入るのかと思った立ち上がり！",
+    "goodPoint": "今日も植田、早川様が止めてくれたので、クリーンシート！",
+    "badPoint": "失点しなかったので良かったが、試合をけってさせるにはもう何点かほしかったな",
+    "expectation": "相手のマテウスうますぎる"
+  }
 }
