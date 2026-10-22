@@ -4,21 +4,63 @@
   "competition": "2026/27明治安田J1リーグ",
   "round": "第11節",
   "date": "2026-10-21",
-  "kickoffTime": "19:00",
+  "kickoffTime": "19:03",
   "venue": "サンガスタジアム by KYOCERA",
   "homeAway": "AWAY",
   "opponent": {
     "opponentId": "kyoto-sanga",
     "name": "京都サンガF.C."
   },
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "score": { "kashima": 2, "opponent": 2 },
+  "result": "DRAW",
+  "attendance": 13011,
+  "goals": [
+    { "minute": 16, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" },
+    { "minute": 78, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-017", "assistPlayerId": "player-040", "goalType": "NORMAL" },
+    { "minute": 90, "additionalTime": 5, "team": "KASHIMA", "scorerPlayerId": "player-027", "assistPlayerId": null, "goalType": "NORMAL" },
+    { "minute": 90, "additionalTime": 7, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" }
+  ],
+  "startingPlayers": [
+    { "playerId": "player-001", "position": "GK" },
+    { "playerId": "player-003", "position": "DF" },
+    { "playerId": "player-007", "position": "DF" },
+    { "playerId": "player-023", "position": "DF" },
+    { "playerId": "player-055", "position": "DF" },
+    { "playerId": "player-006", "position": "MF" },
+    { "playerId": "player-008", "position": "MF" },
+    { "playerId": "player-027", "position": "MF" },
+    { "playerId": "player-030", "position": "MF" },
+    { "playerId": "player-009", "position": "FW" },
+    { "playerId": "player-040", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-021", "entered": false },
+    { "playerId": "player-005", "entered": false },
+    { "playerId": "player-025", "entered": true },
+    { "playerId": "player-010", "entered": true },
+    { "playerId": "player-014", "entered": false },
+    { "playerId": "player-017", "entered": true },
+    { "playerId": "player-024", "entered": false },
+    { "playerId": "player-034", "entered": true },
+    { "playerId": "player-077", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 46, "additionalTime": null, "playerOutId": "player-030", "playerInId": "player-077" },
+    { "minute": 64, "additionalTime": null, "playerOutId": "player-009", "playerInId": "player-017" },
+    { "minute": 73, "additionalTime": null, "playerOutId": "player-023", "playerInId": "player-025" },
+    { "minute": 73, "additionalTime": null, "playerOutId": "player-006", "playerInId": "player-010" },
+    { "minute": 89, "additionalTime": null, "playerOutId": "player-040", "playerInId": "player-034" }
+  ],
+  "cards": [
+    { "minute": 22, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" },
+    { "minute": 85, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" }
+  ],
+  "authorComment": {
+    "summary": "まつむらーー！で勝ったと思ったのに……最後の最後で悔しいドロー。",
+    "goodPoint": "途中出場のエウベルが同点弾！さらに松村の逆転弾まで、最後まで諦めずにひっくり返したのは良かった。",
+    "badPoint": "90＋5分に逆転したからこそ、勝ち切りたかったな。残りわずかな時間を守り切れなかったのがもったいない。",
+    "expectation": "この悔しさは次の柏戦で晴らしてほしい！ホームで勝って、また勢いをつけよう。"
+  }
 }

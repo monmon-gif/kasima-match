@@ -253,3 +253,4 @@
 
 - `match-2026-017`: [Jリーグ公式記録（2026年10月17日 長崎戦）](https://www.jleague.jp/match/j1/2026/101711/lineup/)および[試合速報](https://www.jleague.jp/match/j1/2026/101711/live-commentary/)を参照。開始時刻・得点・アシスト・先発・ベンチ・交代・警告・入場者数を反映。ハーフタイムの交代は46分として記録。
 - `standings/2026-j1.json`: [Jリーグ公式順位表](https://www.jleague.jp/j1/standings/)の2026年10月18日18:16更新（第10節終了時点）を反映。
+- `match-2026-008`: [Jリーグ公式記録（2026年10月21日 京都戦）](https://www.jleague.jp/match/j1/2026/102112/lineup/)および[ゲキサカ試合記録](https://news.livedoor.com/article/detail/32624001/)を参照。開始時刻・得点・先発・ベンチ・交代・警告・入場者数を反映。エウベルのアシストは鈴木優磨のクロス、松村の得点はこぼれ球のためアシストなし（[試合報道](https://www.nikkansports.com/soccer/news/202610210001870.html)）。ハーフタイムの交代は46分として記録。
