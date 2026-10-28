@@ -4,18 +4,60 @@
   "competition": "2026/27明治安田J1リーグ",
   "round": "第12節",
   "date": "2026-10-24",
-  "kickoffTime": "15:00",
+  "kickoffTime": "15:03",
   "venue": "メルカリスタジアム",
   "homeAway": "HOME",
   "opponent": { "opponentId": "kashiwa-reysol", "name": "柏レイソル" },
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "score": { "kashima": 2, "opponent": 3 },
+  "result": "LOSE",
+  "attendance": 26729,
+  "goals": [
+    { "minute": 14, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-034", "assistPlayerId": "player-007", "goalType": "NORMAL" },
+    { "minute": 35, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" },
+    { "minute": 45, "additionalTime": 1, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" },
+    { "minute": 59, "additionalTime": null, "team": "OPPONENT", "scorerPlayerId": null, "assistPlayerId": null, "goalType": "NORMAL" },
+    { "minute": 88, "additionalTime": null, "team": "KASHIMA", "scorerPlayerId": "player-077", "assistPlayerId": "player-017", "goalType": "NORMAL" }
+  ],
+  "startingPlayers": [
+    { "playerId": "player-001", "position": "GK" },
+    { "playerId": "player-003", "position": "DF" },
+    { "playerId": "player-007", "position": "DF" },
+    { "playerId": "player-023", "position": "DF" },
+    { "playerId": "player-055", "position": "DF" },
+    { "playerId": "player-006", "position": "MF" },
+    { "playerId": "player-010", "position": "MF" },
+    { "playerId": "player-024", "position": "MF" },
+    { "playerId": "player-027", "position": "MF" },
+    { "playerId": "player-034", "position": "FW" },
+    { "playerId": "player-040", "position": "FW" }
+  ],
+  "substitutePlayers": [
+    { "playerId": "player-021", "entered": false },
+    { "playerId": "player-005", "entered": false },
+    { "playerId": "player-025", "entered": true },
+    { "playerId": "player-008", "entered": true },
+    { "playerId": "player-014", "entered": false },
+    { "playerId": "player-035", "entered": false },
+    { "playerId": "player-017", "entered": true },
+    { "playerId": "player-030", "entered": true },
+    { "playerId": "player-077", "entered": true }
+  ],
+  "substitutions": [
+    { "minute": 46, "additionalTime": null, "playerOutId": "player-023", "playerInId": "player-025" },
+    { "minute": 46, "additionalTime": null, "playerOutId": "player-034", "playerInId": "player-077" },
+    { "minute": 62, "additionalTime": null, "playerOutId": "player-010", "playerInId": "player-008" },
+    { "minute": 62, "additionalTime": null, "playerOutId": "player-024", "playerInId": "player-017" },
+    { "minute": 78, "additionalTime": null, "playerOutId": "player-007", "playerInId": "player-030" }
+  ],
+  "cards": [
+    { "minute": 39, "additionalTime": null, "team": "OPPONENT", "playerId": null, "type": "YELLOW" }
+  ],
+  "authorComment": {
+    "summary": "いいサッカーをしていただけに、勝ちたかった。現地で見て、内容には手応えを感じたけれど、結果がついてこなかったのが悔しい。キム・テヒョンのことも心配。",
+    "goodPoint": "前半はしっかりとボールを保持して、主導権を握れていると感じた。ピッチコンディションが悪い中でもビルドアップができていたのは良かった。これからこのサッカーがはまっていけば、その価値はさらに増してくると思う。",
+    "badPoint": "2失点目から崩れていったように感じた。厳しいことを言えば、今は優勝レースに参加できていない状況だと思う。まだシーズンの半分も終わっていないけれど、町田や東京には三つ先くらいを行かれてしまっている感覚がある。",
+    "expectation": "まだ期間はあるし、これからの結果次第でチャンスはある。ただ、今日の時点で厳しい状況なのは変わらない。優勝はもちろん、上位に食い込むためにも勝利が必要。内容の良さを結果につなげてほしい。"
+  }
 }

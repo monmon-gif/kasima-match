@@ -242,15 +242,16 @@
 
 ## standings/
 
+- `match-2026-018`: [Jリーグ公式記録（2026年10月24日 柏戦）](https://www.jleague.jp/match/j1/2026/102407/)および[柏レイソル公式記録](https://www.reysol.co.jp/game/results/202627/1024.php)を参照。実際の開始時刻・得点・アシスト・先発・ベンチ・交代・警告・入場者数を反映。ハーフタイムの交代は46分として記録。チャヴリッチの得点はJリーグ公式のアシスト記録に基づきエウベルを登録。観戦コメントはユーザーの現地での感想を基に記載。
+
 順位表は `standings/2026-j1.json` で管理します。各チームの勝・分・敗・得点・失点を更新してください。
 試合数、勝点、得失点差、順位は画面側で自動計算されます。
 
-- `2026-j1.json`: [Jリーグ公式順位表](https://www.jleague.jp/j1/standings/)の2026年10月11日18:19更新（第9節終了時点）に基づき、全20チームの成績を反映。
+- `2026-j1.json`: [Jリーグ公式順位表](https://www.jleague.jp/j1/standings/)の2026年10月25日18:32更新（第12節終了時点）に基づき、全20チームの成績を反映。
 
 ## 選手情報の出典・補足
 
 - 大森渚生（player-019）: 2026年9月16日、ユーザーが確認した公式アカウントの加入・背番号19の情報を反映。プロフィールは水戸公式の2025年マッチデープログラム（https://www.mito-hollyhock.net/wp-content/uploads/2025/04/MHH_mdp_2025_8_s.pdf）、利き足はスポニチ報道（https://news.livedoor.com/article/detail/32334161/）を参照。
 
 - `match-2026-017`: [Jリーグ公式記録（2026年10月17日 長崎戦）](https://www.jleague.jp/match/j1/2026/101711/lineup/)および[試合速報](https://www.jleague.jp/match/j1/2026/101711/live-commentary/)を参照。開始時刻・得点・アシスト・先発・ベンチ・交代・警告・入場者数を反映。ハーフタイムの交代は46分として記録。
-- `standings/2026-j1.json`: [Jリーグ公式順位表](https://www.jleague.jp/j1/standings/)の2026年10月18日18:16更新（第10節終了時点）を反映。
 - `match-2026-008`: [Jリーグ公式記録（2026年10月21日 京都戦）](https://www.jleague.jp/match/j1/2026/102112/lineup/)および[ゲキサカ試合記録](https://news.livedoor.com/article/detail/32624001/)を参照。開始時刻・得点・先発・ベンチ・交代・警告・入場者数を反映。エウベルのアシストは鈴木優磨のクロス、松村の得点はこぼれ球のためアシストなし（[試合報道](https://www.nikkansports.com/soccer/news/202610210001870.html)）。ハーフタイムの交代は46分として記録。
