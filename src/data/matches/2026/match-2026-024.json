@@ -1,0 +1,164 @@
+{
+  "matchId": "match-2026-024",
+  "season": 2026,
+  "competition": "2026/27 AFCチャンピオンズリーグElite",
+  "round": "リーグステージ 第3節 東地区",
+  "date": "2026-10-28",
+  "kickoffTime": "19:01",
+  "venue": "カシマサッカースタジアム",
+  "homeAway": "HOME",
+  "opponent": {
+    "opponentId": "pohang-steelers",
+    "name": "浦項スティーラーズ"
+  },
+  "status": "FINISHED",
+  "matchDuration": 90,
+  "score": {
+    "kashima": 3,
+    "opponent": 0
+  },
+  "result": "WIN",
+  "attendance": 5676,
+  "goals": [
+    {
+      "minute": 69,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-025",
+      "assistPlayerId": null,
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 75,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-077",
+      "assistPlayerId": null,
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 90,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-008",
+      "assistPlayerId": null,
+      "goalType": "NORMAL"
+    }
+  ],
+  "startingPlayers": [
+    {
+      "playerId": "player-001",
+      "position": "GK"
+    },
+    {
+      "playerId": "player-004",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-005",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-007",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-035",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-037",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-008",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-017",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-024",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-034",
+      "position": "FW"
+    },
+    {
+      "playerId": "player-077",
+      "position": "FW"
+    }
+  ],
+  "substitutePlayers": [
+    {
+      "playerId": "player-025",
+      "entered": true
+    },
+    {
+      "playerId": "player-040",
+      "entered": true
+    },
+    {
+      "playerId": "player-027",
+      "entered": true
+    },
+    {
+      "playerId": "player-010",
+      "entered": true
+    },
+    {
+      "playerId": "player-009",
+      "entered": true
+    }
+  ],
+  "substitutions": [
+    {
+      "minute": 9,
+      "additionalTime": null,
+      "playerOutId": "player-037",
+      "playerInId": "player-025"
+    },
+    {
+      "minute": 46,
+      "additionalTime": null,
+      "playerOutId": "player-034",
+      "playerInId": "player-040"
+    },
+    {
+      "minute": 64,
+      "additionalTime": null,
+      "playerOutId": "player-017",
+      "playerInId": "player-027"
+    },
+    {
+      "minute": 64,
+      "additionalTime": null,
+      "playerOutId": "player-035",
+      "playerInId": "player-010"
+    },
+    {
+      "minute": 85,
+      "additionalTime": null,
+      "playerOutId": "player-077",
+      "playerInId": "player-009"
+    }
+  ],
+  "cards": [
+    {
+      "minute": 80,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "YELLOW"
+    },
+    {
+      "minute": 85,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "YELLOW"
+    }
+  ]
+}

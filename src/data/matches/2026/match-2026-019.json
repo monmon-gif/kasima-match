@@ -4,18 +4,211 @@
   "competition": "2026/27明治安田J1リーグ",
   "round": "第13節",
   "date": "2026-10-31",
-  "kickoffTime": "15:00",
+  "kickoffTime": "15:04",
   "venue": "メルカリスタジアム",
   "homeAway": "HOME",
-  "opponent": { "opponentId": "cerezo-osaka", "name": "セレッソ大阪" },
-  "status": "SCHEDULED",
+  "opponent": {
+    "opponentId": "cerezo-osaka",
+    "name": "セレッソ大阪"
+  },
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "score": {
+    "kashima": 4,
+    "opponent": 1
+  },
+  "result": "WIN",
+  "attendance": 24251,
+  "goals": [
+    {
+      "minute": 14,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-017",
+      "assistPlayerId": "player-027",
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 22,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-017",
+      "assistPlayerId": "player-040",
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 25,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "scorerPlayerId": null,
+      "assistPlayerId": null,
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 36,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-008",
+      "assistPlayerId": "player-040",
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 70,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-077",
+      "assistPlayerId": null,
+      "goalType": "NORMAL"
+    }
+  ],
+  "startingPlayers": [
+    {
+      "playerId": "player-001",
+      "position": "GK"
+    },
+    {
+      "playerId": "player-005",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-007",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-023",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-055",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-008",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-014",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-017",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-027",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-009",
+      "position": "FW"
+    },
+    {
+      "playerId": "player-040",
+      "position": "FW"
+    }
+  ],
+  "substitutePlayers": [
+    {
+      "playerId": "player-010",
+      "entered": true
+    },
+    {
+      "playerId": "player-077",
+      "entered": true
+    },
+    {
+      "playerId": "player-006",
+      "entered": true
+    },
+    {
+      "playerId": "player-024",
+      "entered": true
+    },
+    {
+      "playerId": "player-032",
+      "entered": true
+    }
+  ],
+  "substitutions": [
+    {
+      "minute": 58,
+      "additionalTime": null,
+      "playerOutId": "player-014",
+      "playerInId": "player-010"
+    },
+    {
+      "minute": 58,
+      "additionalTime": null,
+      "playerOutId": "player-017",
+      "playerInId": "player-077"
+    },
+    {
+      "minute": 73,
+      "additionalTime": null,
+      "playerOutId": "player-008",
+      "playerInId": "player-006"
+    },
+    {
+      "minute": 73,
+      "additionalTime": null,
+      "playerOutId": "player-009",
+      "playerInId": "player-024"
+    },
+    {
+      "minute": 86,
+      "additionalTime": null,
+      "playerOutId": "player-027",
+      "playerInId": "player-032"
+    }
+  ],
+  "cards": [
+    {
+      "minute": 33,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "YELLOW"
+    },
+    {
+      "minute": 55,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "YELLOW"
+    },
+    {
+      "minute": 57,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "playerId": "player-009",
+      "type": "YELLOW"
+    },
+    {
+      "minute": 88,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "YELLOW"
+    },
+    {
+      "minute": 89,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "playerId": "player-040",
+      "type": "YELLOW"
+    },
+    {
+      "minute": 90,
+      "additionalTime": 4,
+      "team": "KASHIMA",
+      "playerId": "player-005",
+      "type": "YELLOW"
+    }
+  ],
+  "authorComment": {
+    "summary": "エウベルの2ゴールがうれしい。ブラジル組と優磨の関係も良く、チームのいい雰囲気を感じた一戦。",
+    "goodPoint": "個人的にエウベルの2ゴールはうれしい。守備も鬼木さんが求めるレベルまでくれば、相手にとって脅威になることは間違いない。優磨とブラジル組の関係も良好に見えた。優磨のおかげでチームが分かれずにまとまっているのか、いい雰囲気だと感じた。ブエノのゴールもいい。4-4-2でボランチが決めるのはすごいことだと思うし、これを機にもっと取ってほしい。チャヴリッチはさすがとしか言いようがない。",
+    "badPoint": "優磨はアシストに回っているのか？ チャンスはあるものの、決めきれていない印象。レオ・セアラが決めないのも珍しい。決めないのが珍しいと感じること自体がバグ。",
+    "expectation": "問題は次のFC東京戦。首位の鼻をへし折りたい。町田よりは優勝してほしい気持ちもあるが、こちらも首位を目指す以上は勝ちたいところ。柏に負けた分、ここで勝たなきゃね。アントラーズは無敵だぜ、FC東京ぶっ飛ばせ！"
+  }
 }

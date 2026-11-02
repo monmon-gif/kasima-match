@@ -1,4 +1,5 @@
 [
+  {"playerId":"player-032","name":"松本 遥翔","nameEn":"Haruto Matsumoto","number":32,"position":"DF","dateOfBirth":"2006-09-29","height":176,"weight":73,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
   {"playerId":"player-001","name":"早川 友基","nameEn":"Tomoki Hayakawa","number":1,"position":"GK","dateOfBirth":"1999-03-03","height":187,"weight":81,"preferredFoot":"RIGHT","nationality":"日本","imagePath":"","active":true},
   {"playerId":"player-021","name":"山田 大樹","nameEn":"Taiki Yamada","number":21,"position":"GK","dateOfBirth":"2002-01-08","height":192,"weight":90,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},
   {"playerId":"player-029","name":"梶川 裕嗣","nameEn":"Yuji Kajikawa","number":29,"position":"GK","dateOfBirth":"1991-07-26","height":185,"weight":78,"preferredFoot":"LEFT","nationality":"日本","imagePath":"","active":true},
