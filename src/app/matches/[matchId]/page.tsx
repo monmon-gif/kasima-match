@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { AttendanceBadge } from '@/components/AttendanceBadge';
 import { getMatchById, getMatches } from '@/services/matchService';
 import { getPlayerName } from '@/services/playerService';
 import { formatMatchDate } from '@/utils/formatDate';
@@ -29,6 +30,7 @@ export default async function MatchDetail({ params }: MatchDetailProps) {
           {match.competition} · {match.round}
         </p>
         <h1>{formatMatchDate(match.date, match.dateCandidates)}</h1>
+        <AttendanceBadge match={match} />
         <p>
           {match.kickoffTime ? `${match.kickoffTime} KICK OFF` : '時刻未定'} ·{' '}
           {match.venue}

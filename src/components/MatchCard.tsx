@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { AttendanceBadge } from '@/components/AttendanceBadge';
 
 import type { Match } from '@/types/match';
 import { formatMatchDate } from '@/utils/formatDate';
@@ -53,7 +54,8 @@ export function MatchCard({ match }: MatchCardProps) {
       </div>
 
       <p className="venue">
-        {match.homeAway} · {match.venue}
+        <span>{match.homeAway} · {match.venue}</span>
+        <AttendanceBadge match={match} />
       </p>
     </Link>
   );

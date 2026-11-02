@@ -1,27 +1,187 @@
 {
   "season": 2026,
   "competition": "2026/27明治安田J1リーグ",
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-11-01",
   "teams": [
-    {"teamId": "kashiwa-reysol", "name": "柏レイソル", "wins": 8, "draws": 1, "losses": 3, "goalsFor": 25, "goalsAgainst": 19},
-    {"teamId": "kashima-antlers", "name": "鹿島アントラーズ", "wins": 6, "draws": 2, "losses": 4, "goalsFor": 25, "goalsAgainst": 21},
-    {"teamId": "machida-zelvia", "name": "FC町田ゼルビア", "wins": 8, "draws": 3, "losses": 1, "goalsFor": 30, "goalsAgainst": 10},
-    {"teamId": "sanfrecce-hiroshima", "name": "サンフレッチェ広島", "wins": 8, "draws": 2, "losses": 2, "goalsFor": 29, "goalsAgainst": 10},
-    {"teamId": "fc-tokyo", "name": "FC東京", "wins": 8, "draws": 3, "losses": 1, "goalsFor": 27, "goalsAgainst": 8},
-    {"teamId": "vissel-kobe", "name": "ヴィッセル神戸", "wins": 7, "draws": 2, "losses": 3, "goalsFor": 18, "goalsAgainst": 11},
-    {"teamId": "kawasaki-frontale", "name": "川崎フロンターレ", "wins": 6, "draws": 4, "losses": 2, "goalsFor": 25, "goalsAgainst": 18},
-    {"teamId": "nagoya-grampus", "name": "名古屋グランパス", "wins": 4, "draws": 2, "losses": 6, "goalsFor": 14, "goalsAgainst": 18},
-    {"teamId": "yokohama-f-marinos", "name": "横浜F・マリノス", "wins": 4, "draws": 6, "losses": 2, "goalsFor": 16, "goalsAgainst": 12},
-    {"teamId": "cerezo-osaka", "name": "セレッソ大阪", "wins": 3, "draws": 5, "losses": 4, "goalsFor": 12, "goalsAgainst": 19},
-    {"teamId": "mito-hollyhock", "name": "水戸ホーリーホック", "wins": 2, "draws": 3, "losses": 7, "goalsFor": 12, "goalsAgainst": 22},
-    {"teamId": "gamba-osaka", "name": "ガンバ大阪", "wins": 2, "draws": 5, "losses": 5, "goalsFor": 14, "goalsAgainst": 21},
-    {"teamId": "fagiano-okayama", "name": "ファジアーノ岡山", "wins": 5, "draws": 1, "losses": 6, "goalsFor": 15, "goalsAgainst": 17},
-    {"teamId": "kyoto-sanga", "name": "京都サンガF.C.", "wins": 2, "draws": 4, "losses": 6, "goalsFor": 15, "goalsAgainst": 23},
-    {"teamId": "avispa-fukuoka", "name": "アビスパ福岡", "wins": 2, "draws": 1, "losses": 9, "goalsFor": 13, "goalsAgainst": 21},
-    {"teamId": "shimizu-s-pulse", "name": "清水エスパルス", "wins": 4, "draws": 2, "losses": 6, "goalsFor": 10, "goalsAgainst": 20},
-    {"teamId": "urawa-red-diamonds", "name": "浦和レッズ", "wins": 7, "draws": 0, "losses": 5, "goalsFor": 21, "goalsAgainst": 23},
-    {"teamId": "v-varen-nagasaki", "name": "V・ファーレン長崎", "wins": 3, "draws": 3, "losses": 6, "goalsFor": 15, "goalsAgainst": 19},
-    {"teamId": "tokyo-verdy", "name": "東京ヴェルディ", "wins": 1, "draws": 5, "losses": 6, "goalsFor": 9, "goalsAgainst": 21},
-    {"teamId": "jef-united-chiba", "name": "ジェフユナイテッド千葉", "wins": 1, "draws": 4, "losses": 7, "goalsFor": 12, "goalsAgainst": 24}
+    {
+      "teamId": "fc-tokyo",
+      "name": "FC東京",
+      "wins": 9,
+      "draws": 3,
+      "losses": 1,
+      "goalsFor": 31,
+      "goalsAgainst": 8
+    },
+    {
+      "teamId": "sanfrecce-hiroshima",
+      "name": "サンフレッチェ広島",
+      "wins": 9,
+      "draws": 2,
+      "losses": 2,
+      "goalsFor": 32,
+      "goalsAgainst": 10
+    },
+    {
+      "teamId": "machida-zelvia",
+      "name": "FC町田ゼルビア",
+      "wins": 8,
+      "draws": 4,
+      "losses": 1,
+      "goalsFor": 30,
+      "goalsAgainst": 10
+    },
+    {
+      "teamId": "kashiwa-reysol",
+      "name": "柏レイソル",
+      "wins": 9,
+      "draws": 1,
+      "losses": 3,
+      "goalsFor": 29,
+      "goalsAgainst": 19
+    },
+    {
+      "teamId": "vissel-kobe",
+      "name": "ヴィッセル神戸",
+      "wins": 8,
+      "draws": 2,
+      "losses": 3,
+      "goalsFor": 21,
+      "goalsAgainst": 12
+    },
+    {
+      "teamId": "kashima-antlers",
+      "name": "鹿島アントラーズ",
+      "wins": 7,
+      "draws": 2,
+      "losses": 4,
+      "goalsFor": 29,
+      "goalsAgainst": 22
+    },
+    {
+      "teamId": "kawasaki-frontale",
+      "name": "川崎フロンターレ",
+      "wins": 6,
+      "draws": 4,
+      "losses": 3,
+      "goalsFor": 27,
+      "goalsAgainst": 22
+    },
+    {
+      "teamId": "yokohama-f-marinos",
+      "name": "横浜F・マリノス",
+      "wins": 5,
+      "draws": 6,
+      "losses": 2,
+      "goalsFor": 20,
+      "goalsAgainst": 14
+    },
+    {
+      "teamId": "urawa-red-diamonds",
+      "name": "浦和レッズ",
+      "wins": 7,
+      "draws": 0,
+      "losses": 6,
+      "goalsFor": 21,
+      "goalsAgainst": 27
+    },
+    {
+      "teamId": "fagiano-okayama",
+      "name": "ファジアーノ岡山",
+      "wins": 5,
+      "draws": 1,
+      "losses": 7,
+      "goalsFor": 15,
+      "goalsAgainst": 21
+    },
+    {
+      "teamId": "nagoya-grampus",
+      "name": "名古屋グランパス",
+      "wins": 4,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 15,
+      "goalsAgainst": 21
+    },
+    {
+      "teamId": "cerezo-osaka",
+      "name": "セレッソ大阪",
+      "wins": 3,
+      "draws": 5,
+      "losses": 5,
+      "goalsFor": 13,
+      "goalsAgainst": 23
+    },
+    {
+      "teamId": "shimizu-s-pulse",
+      "name": "清水エスパルス",
+      "wins": 4,
+      "draws": 2,
+      "losses": 7,
+      "goalsFor": 10,
+      "goalsAgainst": 22
+    },
+    {
+      "teamId": "kyoto-sanga",
+      "name": "京都サンガF.C.",
+      "wins": 3,
+      "draws": 4,
+      "losses": 6,
+      "goalsFor": 17,
+      "goalsAgainst": 23
+    },
+    {
+      "teamId": "v-varen-nagasaki",
+      "name": "V・ファーレン長崎",
+      "wins": 3,
+      "draws": 3,
+      "losses": 7,
+      "goalsFor": 16,
+      "goalsAgainst": 21
+    },
+    {
+      "teamId": "gamba-osaka",
+      "name": "ガンバ大阪",
+      "wins": 2,
+      "draws": 6,
+      "losses": 5,
+      "goalsFor": 14,
+      "goalsAgainst": 21
+    },
+    {
+      "teamId": "tokyo-verdy",
+      "name": "東京ヴェルディ",
+      "wins": 2,
+      "draws": 5,
+      "losses": 6,
+      "goalsFor": 11,
+      "goalsAgainst": 22
+    },
+    {
+      "teamId": "jef-united-chiba",
+      "name": "ジェフユナイテッド千葉",
+      "wins": 2,
+      "draws": 4,
+      "losses": 7,
+      "goalsFor": 15,
+      "goalsAgainst": 24
+    },
+    {
+      "teamId": "mito-hollyhock",
+      "name": "水戸ホーリーホック",
+      "wins": 2,
+      "draws": 3,
+      "losses": 8,
+      "goalsFor": 12,
+      "goalsAgainst": 25
+    },
+    {
+      "teamId": "avispa-fukuoka",
+      "name": "アビスパ福岡",
+      "wins": 2,
+      "draws": 1,
+      "losses": 10,
+      "goalsFor": 13,
+      "goalsAgainst": 24
+    }
   ]
 }

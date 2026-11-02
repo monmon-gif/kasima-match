@@ -189,3 +189,33 @@
   .stat-primary strong{font-size:34px}
   .stat-primary::before{top:5px;font-size:7px}
 }
+.attendance-badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 15px;
+  border: 1px solid #b5122b;
+  border-radius: 3px;
+  background: #fff0f2;
+  color: #941025;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.attendance-badge::before {
+  content: '';
+  position: absolute;
+  inset: 3px auto 3px 6px;
+  border-left: 1px dashed currentColor;
+}
+.attendance-planned {
+  color: #72500b;
+  border-color: #947024;
+  background: #fff8e5;
+}
+.match-card .venue {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}

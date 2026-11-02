@@ -23,4 +23,6 @@ export type Match = {
   substitutePlayers: { playerId: string; entered: boolean }[];
   substitutions: (MatchMinute & { playerOutId: string; playerInId: string })[]; cards: Card[];
   authorComment?: AuthorComment;
+  authorAttended?: boolean;
+  authorAttendancePlanned?: boolean;
 };
