@@ -1,5 +1,10 @@
 # JSONデータの書き方
 
+## 2026年11月9日の更新
+
+- 順位表は[Jリーグ公式順位表](https://www.jleague.jp/j1/standings/)の2026年11月8日19:24更新（第14節終了時点）に基づき、全20チームの勝・分・敗・得点・失点を反映。
+- `match-2026-025`・`match-2026-026`: [横浜F・マリノス公式の準々決勝開催案内](https://www.f-marinos.com/news/match/10783)に基づき、ルヴァンカップ準々決勝の第1戦（11月11日19:00、日産スタジアム）と第2戦（11月15日15:00、メルカリスタジアム）を登録。
+
 このフォルダでは、サイトに表示する元データをJSON形式で管理します。
 
 - `players.json`: 選手のプロフィール
@@ -260,3 +265,5 @@
 
 - `match-2026-017`: [Jリーグ公式記録（2026年10月17日 長崎戦）](https://www.jleague.jp/match/j1/2026/101711/lineup/)および[試合速報](https://www.jleague.jp/match/j1/2026/101711/live-commentary/)を参照。開始時刻・得点・アシスト・先発・ベンチ・交代・警告・入場者数を反映。ハーフタイムの交代は46分として記録。
 - `match-2026-008`: [Jリーグ公式記録（2026年10月21日 京都戦）](https://www.jleague.jp/match/j1/2026/102112/lineup/)および[ゲキサカ試合記録](https://news.livedoor.com/article/detail/32624001/)を参照。開始時刻・得点・先発・ベンチ・交代・警告・入場者数を反映。エウベルのアシストは鈴木優磨のクロス、松村の得点はこぼれ球のためアシストなし（[試合報道](https://www.nikkansports.com/soccer/news/202610210001870.html)）。ハーフタイムの交代は46分として記録。
+
+- `match-2026-009`: [Jリーグ公式記録](https://www.jleague.jp/match/j1/2026/110709/)および[FC東京公式記録](https://www.fctokyo.co.jp/match/schedule/result/20261107/)を参照。11月7日FC東京戦の得点・先発・途中出場・交代・警告・退場・入場者数を反映。実際の開始時刻15:03は[Jリーグデータサイト](https://data.j-league.or.jp/SFMS01/search?competition_years=2026&home_away_select=0&team_ids=1)を参照。ハーフタイムの交代は46分として記録。ベンチは途中出場した5選手のみ登録。相手選手IDはnull、2枚目の警告による退場はSECOND_YELLOWで記録。現地観戦の実績は未確認のため観戦予定フラグを維持。

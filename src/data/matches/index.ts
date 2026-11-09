@@ -22,6 +22,8 @@ import match021 from './2026/match-2026-021.json';
 import match022 from './2026/match-2026-022.json';
 import match023 from './2026/match-2026-023.json';
 import match024 from './2026/match-2026-024.json';
+import match025 from './2026/match-2026-025.json';
+import match026 from './2026/match-2026-026.json';
 import type { Match } from '@/types/match';
 
 export const matches = [
@@ -49,4 +51,6 @@ export const matches = [
   match022,
   match023,
   match024,
+  match025,
+  match026,
 ] as Match[];

@@ -5,21 +5,187 @@
   "competition": "2026/27明治安田J1リーグ",
   "round": "第14節",
   "date": "2026-11-07",
-  "kickoffTime": "15:00",
+  "kickoffTime": "15:03",
   "venue": "味の素スタジアム",
   "homeAway": "AWAY",
   "opponent": {
     "opponentId": "fc-tokyo",
     "name": "FC東京"
   },
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "score": {
+    "kashima": 0,
+    "opponent": 2
+  },
+  "result": "LOSE",
+  "attendance": 38076,
+  "goals": [
+    {
+      "minute": 60,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "scorerPlayerId": null,
+      "assistPlayerId": null,
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 90,
+      "additionalTime": 5,
+      "team": "OPPONENT",
+      "scorerPlayerId": null,
+      "assistPlayerId": null,
+      "goalType": "NORMAL"
+    }
+  ],
+  "startingPlayers": [
+    {
+      "playerId": "player-001",
+      "position": "GK"
+    },
+    {
+      "playerId": "player-025",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-055",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-005",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-007",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-014",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-008",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-027",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-017",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-009",
+      "position": "FW"
+    },
+    {
+      "playerId": "player-040",
+      "position": "FW"
+    }
+  ],
+  "substitutePlayers": [
+    {
+      "playerId": "player-010",
+      "entered": true
+    },
+    {
+      "playerId": "player-077",
+      "entered": true
+    },
+    {
+      "playerId": "player-006",
+      "entered": true
+    },
+    {
+      "playerId": "player-024",
+      "entered": true
+    },
+    {
+      "playerId": "player-032",
+      "entered": true
+    }
+  ],
+  "substitutions": [
+    {
+      "minute": 46,
+      "additionalTime": null,
+      "playerOutId": "player-014",
+      "playerInId": "player-010"
+    },
+    {
+      "minute": 56,
+      "additionalTime": null,
+      "playerOutId": "player-017",
+      "playerInId": "player-077"
+    },
+    {
+      "minute": 70,
+      "additionalTime": null,
+      "playerOutId": "player-008",
+      "playerInId": "player-006"
+    },
+    {
+      "minute": 70,
+      "additionalTime": null,
+      "playerOutId": "player-007",
+      "playerInId": "player-024"
+    },
+    {
+      "minute": 84,
+      "additionalTime": null,
+      "playerOutId": "player-025",
+      "playerInId": "player-032"
+    }
+  ],
+  "cards": [
+    {
+      "minute": 3,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "YELLOW"
+    },
+    {
+      "minute": 28,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "YELLOW"
+    },
+    {
+      "minute": 45,
+      "additionalTime": 1,
+      "team": "KASHIMA",
+      "playerId": "player-014",
+      "type": "YELLOW"
+    },
+    {
+      "minute": 63,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "playerId": "player-040",
+      "type": "YELLOW"
+    },
+    {
+      "minute": 81,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "YELLOW"
+    },
+    {
+      "minute": 90,
+      "additionalTime": 6,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "SECOND_YELLOW"
+    }
+  ],
+  "authorComment": {
+    "summary": "瓦斯戦は何が何でも勝ちたかった、というのが正直なところ。内容では上回っていた印象だけに、チャンスを決めきれなかったことが悔しい。それでも、まだわからない。信じるのみ。",
+    "goodPoint": "優磨やレオ・セアラのコメントからは、過密日程も自分たちで勝ち取ったものとして、それを言い訳にせず勝たなければいけないという強い意志を感じた。さすがだね。試合も主導権は握れていて、チャンスはあった。内容では勝っていた印象だった。",
+    "badPoint": "決めきれなかったことが負けの要因だと思う。特に後半、優磨のトラップが長くなった場面は決めてほしかった。あそこで点を取れていたら、勝てていたかもしれない。チャンスはあっただけに、悔しさが残る。",
+    "expectation": "主導権は握れているので、チャンスを決められれば、おのずと勝点はついてくるはず。年内になるべく勝点を拾って、上位に食い込もう。鬼木さんには川崎時代に首位との大きな勝点差を覆して逆転優勝した実績もある。まだわからない。信じるのみ。最終節、東京の目の前でシャーレを掲げられたら最高のリベンジだね。"
+  }
 }

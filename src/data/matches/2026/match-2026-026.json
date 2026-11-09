@@ -1,0 +1,21 @@
+{
+  "matchId": "match-2026-026",
+  "season": 2026,
+  "competition": "2026/27JリーグYBCルヴァンカップ",
+  "round": "プライムラウンド 準々決勝 第2戦",
+  "date": "2026-11-15",
+  "kickoffTime": "15:00",
+  "venue": "メルカリスタジアム",
+  "homeAway": "HOME",
+  "opponent": { "opponentId": "yokohama-f-marinos", "name": "横浜F・マリノス" },
+  "status": "SCHEDULED",
+  "matchDuration": 90,
+  "score": null,
+  "result": null,
+  "attendance": null,
+  "goals": [],
+  "startingPlayers": [],
+  "substitutePlayers": [],
+  "substitutions": [],
+  "cards": []
+}
