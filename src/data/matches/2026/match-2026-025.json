@@ -4,18 +4,200 @@
   "competition": "2026/27JリーグYBCルヴァンカップ",
   "round": "プライムラウンド 準々決勝 第1戦",
   "date": "2026-11-11",
-  "kickoffTime": "19:00",
+  "kickoffTime": "19:03",
   "venue": "日産スタジアム",
   "homeAway": "AWAY",
-  "opponent": { "opponentId": "yokohama-f-marinos", "name": "横浜F・マリノス" },
-  "status": "SCHEDULED",
+  "opponent": {
+    "opponentId": "yokohama-f-marinos",
+    "name": "横浜F・マリノス"
+  },
+  "status": "FINISHED",
   "matchDuration": 90,
-  "score": null,
-  "result": null,
-  "attendance": null,
-  "goals": [],
-  "startingPlayers": [],
-  "substitutePlayers": [],
-  "substitutions": [],
-  "cards": []
+  "score": {
+    "kashima": 3,
+    "opponent": 2
+  },
+  "result": "WIN",
+  "attendance": 11593,
+  "goals": [
+    {
+      "minute": 20,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "scorerPlayerId": null,
+      "assistPlayerId": null,
+      "goalType": "PENALTY"
+    },
+    {
+      "minute": 25,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "scorerPlayerId": null,
+      "assistPlayerId": null,
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 45,
+      "additionalTime": 6,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-040",
+      "assistPlayerId": "player-017",
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 65,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-010",
+      "assistPlayerId": null,
+      "goalType": "NORMAL"
+    },
+    {
+      "minute": 82,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "scorerPlayerId": "player-040",
+      "assistPlayerId": "player-009",
+      "goalType": "NORMAL"
+    }
+  ],
+  "startingPlayers": [
+    {
+      "playerId": "player-021",
+      "position": "GK"
+    },
+    {
+      "playerId": "player-023",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-004",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-035",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-007",
+      "position": "DF"
+    },
+    {
+      "playerId": "player-010",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-006",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-024",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-017",
+      "position": "MF"
+    },
+    {
+      "playerId": "player-077",
+      "position": "FW"
+    },
+    {
+      "playerId": "player-040",
+      "position": "FW"
+    }
+  ],
+  "substitutePlayers": [
+    {
+      "playerId": "player-029",
+      "entered": false
+    },
+    {
+      "playerId": "player-005",
+      "entered": false
+    },
+    {
+      "playerId": "player-055",
+      "entered": false
+    },
+    {
+      "playerId": "player-025",
+      "entered": true
+    },
+    {
+      "playerId": "player-028",
+      "entered": false
+    },
+    {
+      "playerId": "player-032",
+      "entered": false
+    },
+    {
+      "playerId": "player-008",
+      "entered": true
+    },
+    {
+      "playerId": "player-027",
+      "entered": true
+    },
+    {
+      "playerId": "player-009",
+      "entered": true
+    }
+  ],
+  "substitutions": [
+    {
+      "minute": 46,
+      "additionalTime": null,
+      "playerOutId": "player-023",
+      "playerInId": "player-025"
+    },
+    {
+      "minute": 46,
+      "additionalTime": null,
+      "playerOutId": "player-024",
+      "playerInId": "player-009"
+    },
+    {
+      "minute": 65,
+      "additionalTime": null,
+      "playerOutId": "player-077",
+      "playerInId": "player-027"
+    },
+    {
+      "minute": 65,
+      "additionalTime": null,
+      "playerOutId": "player-010",
+      "playerInId": "player-008"
+    }
+  ],
+  "authorComment": {
+    "summary": "優磨と柴崎のゴール、現地で見られた人がうらやましい！",
+    "goodPoint": "優磨と柴崎のゴールを現地で見られた人がうらやましい。",
+    "badPoint": "スカパーで試合を見られなかったのが残念。",
+    "expectation": ""
+  },
+  "cards": [
+    {
+      "minute": 31,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "RED"
+    },
+    {
+      "minute": 81,
+      "additionalTime": null,
+      "team": "KASHIMA",
+      "playerId": "player-009",
+      "type": "YELLOW"
+    },
+    {
+      "minute": 82,
+      "additionalTime": null,
+      "team": "OPPONENT",
+      "playerId": null,
+      "type": "YELLOW"
+    }
+  ]
 }
